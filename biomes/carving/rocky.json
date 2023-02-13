@@ -1,0 +1,65 @@
+{
+    "name": "Rocky Cavern",
+    "wall": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {
+                "block": "minecraft:stone",
+                "weight": 3
+            },
+            {"block": "minecraft:cobblestone"},
+            {"block": "minecraft:stone"}
+        ]
+    },
+    "layers": [{
+        "style": {"style": "STATIC"},
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {
+                "block": "minecraft:stone",
+                "weight": 5
+            },
+            {
+                "block": "minecraft:cobblestone",
+                "weight": 1
+            },
+            {
+                "block": "minecraft:andesite",
+                "weight": 1
+            }
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.06,
+            "absoluteMaxStack": 7,
+            "scaleStack": true,
+            "stackMin": 10,
+            "stackMax": 30,
+            "palette": [{
+                "block": "minecraft:andesite_wall"
+            }]
+        }
+    ],
+    "caveCeilingLayers": [{
+        "style": {"style": "STATIC"},
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {
+                "block": "minecraft:stone",
+                "weight": 5
+            },
+            {
+                "block": "minecraft:cobblestone",
+                "weight": 1
+            },
+            {
+                "block": "minecraft:andesite",
+                "weight": 1
+            }
+        ]
+    }]
+}

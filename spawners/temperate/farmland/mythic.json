@@ -1,0 +1,30 @@
+{
+    "group": "NORMAL",
+    "maximumRate": {
+        "amount": 3,
+        "per": {"seconds": 15}
+    },
+    "timeBlock": {
+        "startHour": 20,
+        "endHour": 3
+    },
+    "maxEntitiesPerChunk": 2,
+    "energyMultiplier": 0.95,
+    "weather": "ANY",
+    "spawns": [
+        {
+            "entity": "mythic/scarecrow",
+            "energyMultiplier": 2,
+            "rarity": 50,
+            "maxSpawns": 1,
+            "minSpawns": 1
+        },
+        {
+            "entity": "mythic/vineskeleton",
+            "energyMultiplier": 1,
+            "rarity": 6,
+            "maxSpawns": 2,
+            "minSpawns": 1
+        }
+    ]
+}

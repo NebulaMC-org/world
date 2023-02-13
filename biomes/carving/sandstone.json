@@ -1,0 +1,23 @@
+{
+    "name": "Red Sandstone Cavern",
+    "wall": {
+        "style": {"style": "VASCULAR"},
+        "palette": [{"block": "minecraft:sandstone"}]
+    },
+    "layers": [{
+        "maxHeight": 3,
+        "minHeight": 3,
+        "palette": [{
+            "block": "minecraft:smooth_sandstone",
+            "weight": 8
+        }]
+    }],
+    "caveCeilingLayers": [{
+        "maxHeight": 3,
+        "minHeight": 3,
+        "palette": [{
+            "block": "minecraft:smooth_sandstone",
+            "weight": 8
+        }]
+    }]
+}
