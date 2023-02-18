@@ -1,0 +1,41 @@
+{
+    "name": "Deepslate Cavern",
+    "wall": {"palette": [{"block": "minecraft:deepslate"}]},
+    "layers": [{
+        "style": {
+            "style": "NOWHERE_CELLULAR",
+            "zoom": 0.5
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:deepslate", "weight": 5},
+            {"block": "minecraft:tuff", "weight": 1}
+        ]
+    }],
+    "caveCeilingLayers": [{
+        "style": {
+            "style": "NOWHERE_CELLULAR",
+            "zoom": 0.5
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:deepslate", "weight": 1},
+            {"block": "minecraft:tuff", "weight": 4}
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.02,
+            "style": {
+                "style": "STATIC",
+                "zoom": 1.5
+            },
+            "palette": [{
+                "block": "minecraft:glow_lichen"
+            }]
+        }
+    ]
+}

@@ -22,10 +22,6 @@
                     "block": "minecraft:moss_block",
                     "weight": 2
                 },
-                {
-                    "block": "minecraft:water",
-                    "weight": 1
-                },
                 {"block": "minecraft:clay"},
                 {"block": "minecraft:clay"},
                 {"block": "minecraft:deepslate"}

@@ -1,0 +1,42 @@
+{
+    "name": "Lava Cavern",
+    "wall": {"palette": [{"block": "minecraft:deepslate"}]},
+    "layers": [{
+        "style": {
+            "style": "STATIC",
+            "zoom": 0.5
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:deepslate"},
+            {"block": "minecraft:tuff"}
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.06,
+            "absoluteMaxStack": 7,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 30,
+            "palette": [{
+                "block": "minecraft:cobbled_deepslate_wall"
+            }]
+        }
+    ],
+    "caveCeilingLayers": [{
+        "style": {"style": "IRIS"},
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {
+                "block": "minecraft:deepslate"
+            },
+            {
+                "block": "minecraft:tuff"
+            }
+        ]
+    }]
+}

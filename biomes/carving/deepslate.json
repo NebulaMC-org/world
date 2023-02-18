@@ -1,5 +1,5 @@
 {
-    "name": "Deepslate Cavern",
+    "name": "Deepslate Caves",
     "wall": {"palette": [{"block": "minecraft:deepslate"}]},
     "layers": [{
         "style": {

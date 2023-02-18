@@ -1,0 +1,40 @@
+{
+    "fill": {"block": "minecraft:cave_air"},
+    "verticalRange": {
+        "max": 140,
+        "min": 60
+    },
+    "customBiome": "carving/rocky-huge",
+    "worm": {
+        "girth": {
+            "max": 12,
+            "min": 12,
+            "style": {"style": "NOWHERE"}
+        },
+        "maxDistance": 50,
+        "yStyle": {
+            "min": 0,
+            "max": 0,
+            "generator": {
+                "zoom": 3,
+                "style": "NOWHERE"
+            }
+        },
+        "xStyle": {
+            "min": -10,
+            "max": 10,
+            "generator": {
+                "zoom": 0.6,
+                "style": "NOWHERE"
+            }
+        },
+        "zStyle": {
+            "min": -10,
+            "max": 10,
+            "generator": {
+                "zoom": 0.6,
+                "style": "NOWHERE"
+            }
+        }
+    }
+}

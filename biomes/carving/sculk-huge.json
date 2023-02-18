@@ -1,5 +1,5 @@
 {
-    "name": "Sculk Tunnels",
+    "name": "Sculk Cavern",
     "wall": {"palette": [{"block": "minecraft:deepslate"}]},
 
     "layers": [{
@@ -10,23 +10,15 @@
         "maxHeight": 2,
         "minHeight": 2,
         "palette": [
-            {"block": "minecraft:tuff"},
             {"block": "minecraft:sculk"}
         ]
     }],
     "caveCeilingLayers": [{
-        "maxHeight": 2,
+        "maxHeight": 4,
         "minHeight": 2,
         "palette": [{"block": "minecraft:deepslate"}]
 
     }],
-    "carving":{
-        "caves": [
-            {"cave": "DeepDark/DeepDarkCaves", "rarity": 20}
-
-
-        ]},
-
    "decorators": [
     {
         "palette": [
@@ -40,6 +32,34 @@
             {"block": "minecraft:sculk_shrieker"}
         ],
             "chance": 0.005
+    },
+    {
+        "partOf": "CEILING",
+        "chance": 0.3,
+        "style": {
+            "style": "NOWHERE_CELLULAR",
+            "zoom": 0.25
+        },
+        "palette": [{
+            "block": "minecraft:sculk_vein"
+        }]
+    },
+    {
+        "style":{
+            "style": "GLOB_IRIS",
+            "zoom": 0.35
+        },
+        "chance": 0.3,
+        "scaleStack": true,
+        "stackMin": 100,
+        "stackMax": 100,
+        "topPalette": [
+            {"block": "minecraft:cobbled_deepslate"}
+        ],
+        "palette": [{
+            "block": "minecraft:deepslate"
+        }],
+        "absoluteMaxStack": 40
     }
 
 

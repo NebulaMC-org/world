@@ -1,0 +1,47 @@
+{
+    "fill": {"block": "minecraft:cave_air"},
+    "verticalRange": {
+        "max": 80,
+        "min": 5
+    },
+    "customBiome": "carving/lava",
+    "fork": {
+        "caves": [{
+            "breakSurface": false,
+            "cave": "lava/river",
+            "rarity": 200
+        }]
+    },
+    "worm": {
+        "girth": {
+            "max": 14,
+            "min": 14,
+            "style": {"style": "NOWHERE"}
+        },
+        "maxDistance": 20,
+        "yStyle": {
+            "min": -1,
+            "max": 1,
+            "generator": {
+                "zoom": 3,
+                "style": "NOWHERE"
+            }
+        },
+        "xStyle": {
+            "min": -20,
+            "max": 20,
+            "generator": {
+                "zoom": 0.6,
+                "style": "NOWHERE"
+            }
+        },
+        "zStyle": {
+            "min": -20,
+            "max": 20,
+            "generator": {
+                "zoom": 0.6,
+                "style": "NOWHERE"
+            }
+        }
+    }
+}

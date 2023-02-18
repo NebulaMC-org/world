@@ -53,15 +53,26 @@
             "translate": {
                 "yRandom": 10,
                 "y": 2
-            }
+            },
+            "mode": "MIN_HEIGHT"
         }
     ],
     "carving": {
         "caves": [
             {
                 "breakSurface": false,
-                "cave": "huge/main",
-                "rarity": 30,
+                "cave": "lava/river",
+                "rarity": 120,
+                "caveStartHeight": {
+                    "max": 5,
+                    "min": 5,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/lake",
+                "rarity": 350,
                 "caveStartHeight": {
                     "max": 20,
                     "min": 10,
@@ -70,20 +81,10 @@
             },
             {
                 "breakSurface": false,
-                "cave": "huge/lush",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 80,
-                    "min": 70,
-                    "style": {"style": "STATIC"}
-                }
-            },
-            {
-                "breakSurface": false,
                 "cave": "drip/main",
                 "rarity": 30,
                 "caveStartHeight": {
-                    "max": 90,
+                    "max": 140,
                     "min": 10,
                     "style": {"style": "STATIC"}
                 }
@@ -93,8 +94,18 @@
                 "cave": "rocky/main",
                 "rarity": 15,
                 "caveStartHeight": {
-                    "max": 90,
+                    "max": 145,
                     "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "rocky/huge",
+                "rarity": 225,
+                "caveStartHeight": {
+                    "max": 120,
+                    "min": 100,
                     "style": {"style": "STATIC"}
                 }
             },
@@ -109,11 +120,21 @@
                 }
             },
             {
+                "breakSurface": false,
+                "cave": "deep/huge",
+                "rarity": 270,
+                "caveStartHeight": {
+                    "max": 70,
+                    "min": 30,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
                 "breakSurface": true,
                 "cave": "plain/main",
                 "rarity": 20,
                 "caveStartHeight": {
-                    "max": 160,
+                    "max": 140,
                     "min": 40,
                     "style": {"style": "STATIC"}
                 }
@@ -124,7 +145,27 @@
                 "rarity": 15,
                 "caveStartHeight": {
                     "max": 400,
+                    "min": 120,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lush/huge",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 100,
                     "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "sculk/huge",
+                "rarity": 450,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 40,
                     "style": {"style": "STATIC"}
                 }
             }

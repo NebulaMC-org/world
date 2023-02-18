@@ -1,0 +1,102 @@
+{
+    "name": "Rocky Cavern",
+    "wall": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {
+                "block": "minecraft:stone",
+                "weight": 3
+            },
+            {"block": "minecraft:cobblestone"},
+            {"block": "minecraft:stone"}
+        ]
+    },
+    "layers": [{
+        "style": {"style": "NOWHERE_CELLULAR"},
+        "zoom": 0.35,
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {
+                "block": "minecraft:stone",
+                "weight": 60
+            },
+            {
+                "block": "minecraft:andesite",
+                "weight": 20
+            },
+            {
+                "block": "minecraft:calcite",
+                "weight": 10
+            },
+            {
+                "block": "minecraft:granite",
+                "weight": 2
+            },
+            {
+                "block": "minecraft:diorite",
+                "weight": 10
+            }
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.02,
+            "absoluteMaxStack": 11,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 35,
+            "palette": [{
+                "block": "minecraft:andesite_wall"
+            }]
+        },
+        {
+            "partOf": "CEILING",
+            "chance": 0.02,
+            "absoluteMaxStack": 11,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 35,
+            "palette": [{
+                "block": "minecraft:diorite_wall"
+            }]
+        },
+        {
+            "chance": 0.005,
+            "stackMin": 1,
+            "stackMax": 1,
+            "palette": [{
+                "block": "minecraft:brown_mushroom"
+            }]
+        }
+    ],
+    "caveCeilingLayers": [{
+        "style": {"style": "NOWHERE_CELLULAR"},
+        "zoom": 0.35,
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {
+                "block": "minecraft:stone",
+                "weight": 10
+            },
+            {
+                "block": "minecraft:andesite",
+                "weight": 10
+            },
+            {
+                "block": "minecraft:calcite",
+                "weight": 30
+            },
+            {
+                "block": "minecraft:granite",
+                "weight": 2
+            },
+            {
+                "block": "minecraft:diorite",
+                "weight": 20
+            }
+        ]
+    }]
+}

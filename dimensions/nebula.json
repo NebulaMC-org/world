@@ -2,7 +2,8 @@
     "version": 2092,
     "name": "Overworld",
     "environment": "NORMAL",
-    "fluidHeight": 75,
+    "focus": "temperate/plains",
+    "fluidHeight": 80,
     "continentZoom": 1,
     "continentalStyle": {
         "imageMap":{
@@ -59,15 +60,15 @@
     },
     "jigsawStructures": [
         {
-            "rarity": 1100,
+            "rarity": 700,
             "structure": "dungeon-skeleton"
         },
         {
-            "rarity": 1100,
+            "rarity": 700,
             "structure": "dungeon-spider"
         },
         {
-            "rarity": 1100,
+            "rarity": 700,
             "structure": "dungeon-zombie"
         },
         {
@@ -241,4 +242,5 @@
         "mode": "ADD",
         "tables": ["global-clutter","global-tools","global-treasure"]
     }
+
 }

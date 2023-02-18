@@ -1,0 +1,47 @@
+{
+    "fill": {"block": "minecraft:cave_air"},
+    "verticalRange": {
+        "max": 70,
+        "min": 15
+    },
+    "customBiome": "carving/sculk-huge",
+    "fork": {
+        "caves": [{
+            "breakSurface": false,
+            "cave": "sculk/huge-branch",
+            "rarity": 1
+        }]
+    },
+    "worm": {
+        "girth": {
+            "max": 12,
+            "min": 12,
+            "style": {"style": "NOWHERE"}
+        },
+        "maxDistance": 200,
+        "yStyle": {
+            "min": -6,
+            "max": 6,
+            "generator": {
+                "zoom": 3,
+                "style": "NOWHERE"
+            }
+        },
+        "xStyle": {
+            "min": -40,
+            "max": 40,
+            "generator": {
+                "zoom": 0.6,
+                "style": "NOWHERE"
+            }
+        },
+        "zStyle": {
+            "min": -40,
+            "max": 40,
+            "generator": {
+                "zoom": 0.6,
+                "style": "NOWHERE"
+            }
+        }
+    }
+}

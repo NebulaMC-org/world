@@ -56,9 +56,10 @@
                 "min": 0
             },
             "translate": {
-                "yRandom": 10,
+                "yRandom": 0,
                 "y": 2
-            }
+            },
+            "mode": "MIN_HEIGHT"
         }
     ],
     "shoreBiomes": ["hot/shore/beach"],
