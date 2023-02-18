@@ -1,6 +1,6 @@
 {
     "maxDepth": 18,
-    "pieces": ["mineshaft/intersection"],
+    "pieces": ["mineshaft_wide/intersection"],
         "overrideYRange" :{
         "max": 45,
         "min": 7,

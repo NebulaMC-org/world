@@ -2,7 +2,7 @@
     "fill": {"block": "minecraft:cave_air"},
     "verticalRange": {
         "max": 400,
-        "min": 15
+        "min": 40
     },
     "customBiome": "carving/rocky",
     "fork": {

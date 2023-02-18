@@ -1,5 +1,9 @@
 {
     "object": "jigsaw/mineshaft/way_chest",
+    "placementOptions":{
+        "bore": true,
+        "loot": ["structures/mineshaft"]
+    },
     "connectors": [
         {
             "name": "",
@@ -29,6 +33,5 @@
             },
             "direction": "EAST_POSITIVE_X"
         }
-    ],
-    "placementOptions": {"loot": ["structures/mineshaft"]}
+    ]
 }

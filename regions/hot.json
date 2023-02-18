@@ -91,27 +91,59 @@
             "varience": 5
         }
     ],
+    "caves": [
+            {
+                "breakSurface": false,
+                "cave": "huge/main",
+                "rarity": 30,
+                "caveStartHeight": {
+                    "max": 20,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "huge/lush",
+                "rarity": 120,
+                "caveStartHeight": {
+                    "max": 80,
+                    "min": 70,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "drip/main",
+                "rarity": 30,
+                "caveStartHeight": {
+                    "max": 90,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "rocky/main",
+                "rarity": 45,
+                "caveStartHeight": {
+                    "max": 90,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/main",
+                "rarity": 10,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            }
+        ],
     "landBiomeZoom": 7,
-    "effects": [
-        {
-            "potionTicksMin": 87,
-            "potionEffect": "CONFUSION",
-            "chance": 1200,
-            "potionStrength": 0,
-            "potionTicksMax": 67,
-            "interval": 500
-        },
-        {
-            "particleAltX": 0.001,
-            "particleAltY": 0.00885,
-            "particleAltZ": 0.001,
-            "chance": 2,
-            "particleEffect": "CAMPFIRE_SIGNAL_SMOKE",
-            "particleOffset": 0,
-            "interval": 1350,
-            "particleCount": 0
-        }
-    ],
     "shoreHeightMin": 3.2,
     "shoreHeightMax": 6.2,
     "shoreHeightZoom": 1.14,

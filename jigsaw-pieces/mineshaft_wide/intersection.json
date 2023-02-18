@@ -1,47 +1,16 @@
 {
-    "object": "jigsaw/mineshaft/intersection_empty",
-    "placementOptions":{
-        "bore": true
-    },
+    "object": "custom/mineshaft/intersection",
     "connectors": [
         {
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": ["mineshaft/way"],
+            "pools": ["mineshaft_wide/way"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
-                "x": 1,
-                "y": 1,
-                "z": 0
-            },
-            "direction": "EAST_POSITIVE_X"
-        },
-        {
-            "name": "",
-            "targetName": "*",
-            "innerConnector": false,
-            "pools": ["mineshaft/way"],
-            "keepEntity": false,
-            "entityCount": 1,
-            "position": {
-                "x": 0,
-                "y": 1,
-                "z": -1
-            },
-            "direction": "NORTH_NEGATIVE_Z"
-        },
-        {
-            "name": "",
-            "targetName": "*",
-            "innerConnector": false,
-            "pools": ["mineshaft/way"],
-            "keepEntity": false,
-            "entityCount": 1,
-            "position": {
-                "x": -1,
-                "y": 1,
+                "x": -2,
+                "y": -2,
                 "z": 0
             },
             "direction": "WEST_NEGATIVE_X"
@@ -50,15 +19,44 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": ["mineshaft/way"],
+            "pools": ["mineshaft_wide/way"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
-                "x": 0,
-                "y": 1,
+                "x": 1,
+                "y": -2,
+                "z": 0
+            },
+            "direction": "EAST_POSITIVE_X"
+        },
+        {
+            "name": "",
+            "targetName": "*",
+            "innerConnector": false,
+            "pools": ["mineshaft_wide/way"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": -1,
+                "y": -2,
+                "z": -2
+            },
+            "direction": "NORTH_NEGATIVE_Z"
+        },
+        {
+            "name": "",
+            "targetName": "*",
+            "innerConnector": false,
+            "pools": ["mineshaft_wide/way"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": -1,
+                "y": -2,
                 "z": 1
             },
             "direction": "SOUTH_POSITIVE_Z"
         }
-    ]
+    ],
+    "preprocessors": []
 }

@@ -1,5 +1,8 @@
 {
     "object": "jigsaw/mineshaft/way_2",
+    "placementOptions":{
+        "bore": true
+    },
     "connectors": [
         {
             "name": "",

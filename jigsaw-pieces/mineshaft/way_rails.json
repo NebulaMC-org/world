@@ -1,5 +1,8 @@
 {
     "object": "jigsaw/mineshaft/way_rails",
+    "placementOptions":{
+        "bore": true
+    },
     "connectors": [
         {
             "name": "",

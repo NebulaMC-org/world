@@ -2,9 +2,9 @@
     "fill": {"block": "minecraft:cave_air"},
     "verticalRange": {
         "max": 400,
-        "min": 40
+        "min": 15
     },
-    "customBiome": "carving/rocky",
+    "customBiome": "carving/plain",
     "fork": {"elipsoids": [{
         "fill": {"block": "minecraft:cave_air"},
         "rarity": 325,
@@ -16,7 +16,7 @@
     }]},
     "worm": {
         "girth": {
-            "max": 5,
+            "max": 3,
             "min": 2,
             "style": {"style": "NOWHERE"}
         },

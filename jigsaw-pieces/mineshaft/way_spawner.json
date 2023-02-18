@@ -1,5 +1,8 @@
 {
     "object": "jigsaw/mineshaft/way_spawner",
+    "placementOptions":{
+        "bore": true
+    },
     "connectors": [
         {
             "name": "",

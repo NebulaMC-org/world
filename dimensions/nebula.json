@@ -57,6 +57,24 @@
             }
         }
     },
+    "jigsawStructures": [
+        {
+            "rarity": 1100,
+            "structure": "dungeon-skeleton"
+        },
+        {
+            "rarity": 1100,
+            "structure": "dungeon-spider"
+        },
+        {
+            "rarity": 1100,
+            "structure": "dungeon-zombie"
+        },
+        {
+            "rarity": 3500,
+            "structure": "stronghold"
+        }
+    ],
     "shoreBiomeStyle": {"style": "NOWHERE_CELLULAR"},
     "deposits": [
         {

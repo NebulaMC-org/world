@@ -56,6 +56,80 @@
             }
         }
     ],
+    "carving": {
+        "caves": [
+            {
+                "breakSurface": false,
+                "cave": "huge/main",
+                "rarity": 30,
+                "caveStartHeight": {
+                    "max": 20,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "huge/lush",
+                "rarity": 50,
+                "caveStartHeight": {
+                    "max": 80,
+                    "min": 70,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "drip/main",
+                "rarity": 30,
+                "caveStartHeight": {
+                    "max": 90,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "rocky/main",
+                "rarity": 15,
+                "caveStartHeight": {
+                    "max": 90,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/main",
+                "rarity": 10,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "plain/main",
+                "rarity": 20,
+                "caveStartHeight": {
+                    "max": 160,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "mountain/main",
+                "rarity": 15,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            }
+        ]
+    },
     "shoreBiomes": [
         "temperate/shore/beach"
     ],
