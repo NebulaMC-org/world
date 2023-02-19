@@ -1,0 +1,43 @@
+{
+    "name": "Vertus Vein",
+    "wall": {"palette": [{"block": "minecraft:smooth_basalt"}]},
+    "layers": [{
+        "style": {"style": "IRIS", "zoom": 0.05},
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {
+                "block": "minecraft:red_terracotta"
+            },
+            {
+                "block": "minecraft:smooth_basalt"
+            }
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.09,
+            "absoluteMaxStack": 4,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 60,
+            "palette": [{
+                "block": "minecraft:red_stained_glass"
+            }]
+        }
+    ],
+    "caveCeilingLayers": [{
+        "style": {"style": "IRIS", "zoom": 0.05},
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {
+                "block": "minecraft:red_terracotta"
+            },
+            {
+                "block": "minecraft:smooth_basalt"
+            }
+        ]
+    }]
+}

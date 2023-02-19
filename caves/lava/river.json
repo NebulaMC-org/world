@@ -5,6 +5,14 @@
         "min": 0
     },
     "customBiome": "carving/lava",
+    "fork": {
+        "caves": [
+        {
+            "breakSurface": false,
+            "cave": "crystal/vertus",
+            "rarity": 50
+        }]
+    },
     "worm": {
         "girth": {
             "max": 11,

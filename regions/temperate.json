@@ -51,34 +51,13 @@
                 "min": 0
             },
             "translate": {
-                "yRandom": 10,
-                "y": 2
+                "yRandom": 5
             },
             "mode": "MIN_HEIGHT"
         }
     ],
     "carving": {
         "caves": [
-            {
-                "breakSurface": false,
-                "cave": "lava/river",
-                "rarity": 120,
-                "caveStartHeight": {
-                    "max": 5,
-                    "min": 5,
-                    "style": {"style": "STATIC"}
-                }
-            },
-            {
-                "breakSurface": false,
-                "cave": "lava/lake",
-                "rarity": 350,
-                "caveStartHeight": {
-                    "max": 20,
-                    "min": 10,
-                    "style": {"style": "STATIC"}
-                }
-            },
             {
                 "breakSurface": false,
                 "cave": "drip/main",
@@ -115,14 +94,14 @@
                 "rarity": 10,
                 "caveStartHeight": {
                     "max": 60,
-                    "min": 10,
+                    "min": 15,
                     "style": {"style": "STATIC"}
                 }
             },
             {
                 "breakSurface": false,
                 "cave": "deep/huge",
-                "rarity": 270,
+                "rarity": 220,
                 "caveStartHeight": {
                     "max": 70,
                     "min": 30,
@@ -161,11 +140,31 @@
             },
             {
                 "breakSurface": false,
+                "cave": "lava/river",
+                "rarity": 120,
+                "caveStartHeight": {
+                    "max": 5,
+                    "min": 5,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/lake",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 20,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
                 "cave": "sculk/huge",
-                "rarity": 450,
+                "rarity": 600,
                 "caveStartHeight": {
                     "max": 60,
-                    "min": 40,
+                    "min": 30,
                     "style": {"style": "STATIC"}
                 }
             }

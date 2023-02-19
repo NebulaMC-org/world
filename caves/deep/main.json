@@ -2,7 +2,7 @@
     "fill": {"block": "minecraft:cave_air"},
     "verticalRange": {
         "max": 60,
-        "min": 5
+        "min": 15
     },
     "customBiome": "carving/deepslate",
     "fork": {
@@ -23,7 +23,7 @@
             "min": 2,
             "style": {"style": "NOWHERE"}
         },
-        "maxDistance": 160,
+        "maxDistance": 280,
         "yStyle": {
             "min": -3,
             "max": 1,

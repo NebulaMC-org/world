@@ -5,6 +5,13 @@
         "min": 10
     },
     "customBiome": "carving/deepslate-huge",
+    "fork": {
+        "caves": [{
+            "breakSurface": false,
+            "cave": "deep/main",
+            "rarity": 17
+        }]
+    },
     "worm": {
         "girth": {
             "max": 14,

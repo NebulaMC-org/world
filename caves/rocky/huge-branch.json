@@ -1,14 +1,14 @@
 {
     "fill": {"block": "minecraft:cave_air"},
     "verticalRange": {
-        "max": 140,
+        "max": 130,
         "min": 60
     },
     "customBiome": "carving/rocky-huge",
     "worm": {
         "girth": {
-            "max": 12,
-            "min": 12,
+            "max": 10,
+            "min": 10,
             "style": {"style": "NOWHERE"}
         },
         "maxDistance": 50,
