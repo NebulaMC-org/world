@@ -15,13 +15,13 @@
     "worm": {
         "girth": {
             "max": 14,
-            "min": 14,
-            "style": {"style": "NOWHERE"}
+            "min": 10,
+            "style": {"style": "NOWHERE", "zoom": 0.1}
         },
         "maxDistance": 20,
         "yStyle": {
-            "min": -6,
-            "max": 6,
+            "min": -3,
+            "max": 3,
             "generator": {
                 "zoom": 3,
                 "style": "NOWHERE"

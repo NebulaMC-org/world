@@ -2,7 +2,7 @@
     "version": 2092,
     "name": "Overworld",
     "environment": "NORMAL",
-    "fluidHeight": 80,
+    "fluidHeight": 75,
     "continentZoom": 1,
     "continentalStyle": {
         "imageMap":{
@@ -14,9 +14,9 @@
             "coordinateScale": 5
         }
     },
-    "logicalHeight": 400,
+    "logicalHeight": 448,
     "dimensionHeight": {
-        "max": 400,
+        "max": 448,
         "min": -64
     },
     "landChance": 0.35,
@@ -29,16 +29,27 @@
             "zoom": 0.8,
             "fracture": {
                 "style": "SIMPLEX",
-                "multiplier": 35,
-                "zoom": 0.75
+                "multiplier": 4,
+                "zoom": 0.35
             }
         }
     },
+    "jigsawStructures": [
+        {"structure": "dungeon-skeleton", "rarity": 300},
+        {"structure": "dungeon-zombie", "rarity": 300},
+        {"structure": "dungeon-spider", "rarity": 300},
+        {"structure": "stronghold", "rarity": 3500}
+    ],
     "regionZoom": 30,
     "aggressiveBiomeReshuffle": false,
     "regions": [
         "temperate",
-        "hot"
+        "hot",
+        "frozen",
+        "tundra",
+        "tropical",
+        "swamp",
+        "mushroom"
     ],
     "seaBiomeStyle": {"style": "SIMPLEX"},
     "landBiomeStyle": {
@@ -52,29 +63,11 @@
             "fracture": {
                 "axialFracturing": true,
                 "style": "SIMPLEX",
-                "zoom": 0.75,
-                "multiplier": 35
+                "zoom": 0.15,
+                "multiplier": 4
             }
         }
     },
-    "jigsawStructures": [
-        {
-            "rarity": 700,
-            "structure": "dungeon-skeleton"
-        },
-        {
-            "rarity": 700,
-            "structure": "dungeon-spider"
-        },
-        {
-            "rarity": 700,
-            "structure": "dungeon-zombie"
-        },
-        {
-            "rarity": 3500,
-            "structure": "stronghold"
-        }
-    ],
     "shoreBiomeStyle": {"style": "NOWHERE_CELLULAR"},
     "deposits": [
         {
@@ -231,6 +224,7 @@
         }
     ],
     "caveBiomeStyle": {"style": "SIMPLEX"},
+    "coordFractureZoom": 0.15,
     "preventLeafDecay": true,
     "useMantle": true,
     "stronghold": "stronghold",

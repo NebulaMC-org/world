@@ -1,0 +1,46 @@
+{
+    "name": "Mesa Cavern",
+    "wall": {"palette": [{"block": "minecraft:black_terracotta"}]},
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "style": {"style": "NOWHERE_CELLULAR", "zoom": 0.6},
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:black_terracotta"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:brown_terracotta"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:gray_terracotta"
+                }
+            ]
+        }
+    ],
+    "caveCeilingLayers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "style": {"style": "NOWHERE_CELLULAR", "zoom": 0.6},
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:black_terracotta"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:brown_terracotta"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:gray_terracotta"
+                }
+            ]
+        }
+    ]
+}

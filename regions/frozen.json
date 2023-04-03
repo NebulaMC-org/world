@@ -1,0 +1,215 @@
+{
+    "name": "Frozen",
+    "color": "#44C3D1",
+    "rarity": 1,
+    "landBiomes": [
+        "frozen/plains",
+        "frozen/pines",
+        "frozen/plains",
+        "frozen/mountain",
+        "frozen/redwood-forest",
+        "frozen/hills",
+        "frozen/pine-plains",
+        "frozen/spruce-plains",
+		"frozen/ice-spikes"
+    ],
+    "objects": [
+        {
+            "heightmap": {
+                "seed": 1337,
+                "style": {
+                    "style": "SIMPLEX",
+                    "multiplier": 10
+                },
+                "offsetY": 20
+            },
+            "chance": 0.04,
+            "bottom": true,
+            "density": 1,
+            "place": [
+                "structures/amethyst1",
+                "structures/amethyst2",
+                "structures/amethyst3",
+                "structures/amethyst4",
+                "structures/amethyst5",
+                "structures/amethyst6"
+            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
+            "enabled": true,
+            "xAxis": {
+                "interval": 90,
+                "max": 360,
+                "min": 0
+            },
+            "yAxis": {
+                "interval": 90,
+                "max": 360,
+                "min": 0
+            },
+            "translate": {
+                "yRandom": 5
+            },
+            "mode": "MIN_HEIGHT"
+        }
+    ],
+    "shoreBiomes": ["frozen/shore/beach"],
+    "seaBiomes": [
+        "frozen/sea/frozen-river-ice",
+        "frozen/sea/ocean"
+    ],
+    "deposits": [
+        {
+            "minHeight": 8,
+            "maxPerChunk": 5,
+            "maxHeight": 45,
+            "minPerChunk": 1,
+            "minSize": 2,
+            "maxSize": 4,
+            "palette": [{"block": "minecraft:diamond_ore"}],
+            "varience": 4
+        },
+        {
+            "minHeight": 1,
+            "maxPerChunk": 5,
+            "maxHeight": 84,
+            "minPerChunk": 1,
+            "minSize": 3,
+            "maxSize": 8,
+            "palette": [{"block": "minecraft:copper_ore"}],
+            "varience": 8
+        }
+    ],
+    "riverRarity": 1,
+    "landBiomeZoom": 5,
+    "shoreHeightMin": 2.2,
+    "shoreHeightMax": 4.2,
+    "entitySpawners": [
+        "frozen/passive",
+        "frozen/hostile",
+        "frozen/cave",
+        "frozen/water"
+    ],
+    "carving": {
+        "caves": [
+            {
+                "breakSurface": false,
+                "cave": "drip/main",
+                "rarity": 30,
+                "caveStartHeight": {
+                    "max": 130,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "rocky/main",
+                "rarity": 15,
+                "caveStartHeight": {
+                    "max": 125,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "ice/huge",
+                "rarity": 180,
+                "caveStartHeight": {
+                    "max": 130,
+                    "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/main",
+                "rarity": 10,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 15,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/huge",
+                "rarity": 220,
+                "caveStartHeight": {
+                    "max": 70,
+                    "min": 30,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "plain/main",
+                "rarity": 20,
+                "caveStartHeight": {
+                    "max": 140,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "mountain/ice",
+                "rarity": 5,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 190,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lush/huge",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 100,
+                    "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/river",
+                "rarity": 70,
+                "caveStartHeight": {
+                    "max": 5,
+                    "min": 5,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/lake",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 20,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "sculk/huge",
+                "rarity": 550,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 30,
+                    "style": {"style": "STATIC"}
+                }
+            }
+        ]
+    },
+    "shoreHeightZoom": 1.14,
+    "riverThickness": 0.006,
+    "loot": {
+        "mode": "REPLACE",
+        "tables": ["frozen/clutter", "frozen/food", "snow/clutter"]
+    }
+}

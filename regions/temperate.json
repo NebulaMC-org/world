@@ -52,8 +52,7 @@
             },
             "translate": {
                 "yRandom": 5
-            },
-            "mode": "MIN_HEIGHT"
+            }
         }
     ],
     "carving": {
@@ -63,7 +62,7 @@
                 "cave": "drip/main",
                 "rarity": 30,
                 "caveStartHeight": {
-                    "max": 140,
+                    "max": 130,
                     "min": 10,
                     "style": {"style": "STATIC"}
                 }
@@ -73,7 +72,7 @@
                 "cave": "rocky/main",
                 "rarity": 15,
                 "caveStartHeight": {
-                    "max": 145,
+                    "max": 125,
                     "min": 40,
                     "style": {"style": "STATIC"}
                 }
@@ -81,10 +80,20 @@
             {
                 "breakSurface": true,
                 "cave": "rocky/huge",
-                "rarity": 225,
+                "rarity": 180,
                 "caveStartHeight": {
                     "max": 120,
-                    "min": 100,
+                    "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "rocky/surface",
+                "rarity": 300,
+                "caveStartHeight": {
+                    "max": 200,
+                    "min": 140,
                     "style": {"style": "STATIC"}
                 }
             },
@@ -113,7 +122,7 @@
                 "cave": "plain/main",
                 "rarity": 20,
                 "caveStartHeight": {
-                    "max": 140,
+                    "max": 130,
                     "min": 40,
                     "style": {"style": "STATIC"}
                 }
@@ -121,10 +130,10 @@
             {
                 "breakSurface": true,
                 "cave": "mountain/main",
-                "rarity": 15,
+                "rarity": 5,
                 "caveStartHeight": {
                     "max": 400,
-                    "min": 120,
+                    "min": 190,
                     "style": {"style": "STATIC"}
                 }
             },
@@ -141,7 +150,7 @@
             {
                 "breakSurface": false,
                 "cave": "lava/river",
-                "rarity": 120,
+                "rarity": 70,
                 "caveStartHeight": {
                     "max": 5,
                     "min": 5,
@@ -161,7 +170,7 @@
             {
                 "breakSurface": false,
                 "cave": "sculk/huge",
-                "rarity": 600,
+                "rarity": 550,
                 "caveStartHeight": {
                     "max": 60,
                     "min": 30,
@@ -205,6 +214,10 @@
     "shoreHeightMin": 1,
     "shoreHeightMax": 5.2,
     "shoreHeightZoom": 1.14,
-    "riverThickness": 0.025
+    "riverThickness": 0.025,
+    "loot": {
+        "mode": "REPLACE",
+        "tables": ["temperate/clutter", "temperate/food"]
+    }
 
 }

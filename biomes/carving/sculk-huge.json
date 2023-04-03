@@ -7,8 +7,8 @@
             "style": "STATIC",
             "zoom": 1
         },
-        "maxHeight": 2,
-        "minHeight": 2,
+        "maxHeight": 3,
+        "minHeight": 4,
         "palette": [
             {"block": "minecraft:sculk"}
         ]
@@ -47,7 +47,7 @@
     {
         "style":{
             "style": "GLOB_IRIS",
-            "zoom": 0.35
+            "zoom": 0.28
         },
         "chance": 0.3,
         "scaleStack": true,

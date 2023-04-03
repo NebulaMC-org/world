@@ -9,7 +9,7 @@
         "caves": [{
             "breakSurface": false,
             "cave": "sculk/huge-branch",
-            "rarity": 1
+            "rarity": 2
         }]
     },
     "worm": {

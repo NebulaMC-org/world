@@ -1,0 +1,70 @@
+{
+    "name": "Volcanic Cavern",
+    "wall": {"palette": [
+        {
+            "block": "minecraft:smooth_basalt",
+            "weight": 10
+        },
+        {"block": "minecraft:magma_block"}
+    ]
+    ,"style": {"style": "NOWHERE_CELLULAR", "zoom": 0.2}
+    },
+    "layers": [{
+        "maxHeight": 2,
+        "minHeight": 2,
+        "style": {"style": "NOWHERE_CELLULAR", "zoom": 0.2},
+        "palette": [
+            {
+                "block": "minecraft:smooth_basalt",
+                "weight": 1
+            },
+            {
+                "block": "minecraft:basalt",
+                "data": {"axis": "y"},
+                "weight": 4
+            },
+            {"block": "minecraft:magma_block"}
+        ]
+    }],
+    "caveCeilingLayers": [{
+        "maxHeight": 2,
+        "minHeight": 2,
+        "style": {"style": "NOWHERE_CELLULAR", "zoom": 1},
+        "palette": [
+            {
+                "block": "minecraft:smooth_basalt",
+                "weight": 1
+            },
+            {
+                "block": "minecraft:basalt",
+                "data": {"axis": "y"},
+                "weight": 4
+            },
+            {"block": "minecraft:magma_block"}
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.08,
+            "absoluteMaxStack": 11,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 35,
+            "palette": [{
+                "block": "minecraft:basalt"
+            }]
+        },
+        {
+            "partOf": "CEILING",
+            "chance": 0.005,
+            "absoluteMaxStack": 1,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 35,
+            "palette": [{
+                "block": "minecraft:lava"
+            }]
+        }
+    ]
+}

@@ -56,8 +56,7 @@
                 "min": 0
             },
             "translate": {
-                "yRandom": 0,
-                "y": 2
+                "yRandom": 5
             },
             "mode": "MIN_HEIGHT"
         }
@@ -92,33 +91,14 @@
             "varience": 5
         }
     ],
-    "caves": [
-            {
-                "breakSurface": false,
-                "cave": "huge/main",
-                "rarity": 30,
-                "caveStartHeight": {
-                    "max": 20,
-                    "min": 10,
-                    "style": {"style": "STATIC"}
-                }
-            },
-            {
-                "breakSurface": false,
-                "cave": "huge/lush",
-                "rarity": 120,
-                "caveStartHeight": {
-                    "max": 80,
-                    "min": 70,
-                    "style": {"style": "STATIC"}
-                }
-            },
+    "carving": {
+        "caves": [
             {
                 "breakSurface": false,
                 "cave": "drip/main",
                 "rarity": 30,
                 "caveStartHeight": {
-                    "max": 90,
+                    "max": 130,
                     "min": 10,
                     "style": {"style": "STATIC"}
                 }
@@ -126,10 +106,20 @@
             {
                 "breakSurface": false,
                 "cave": "rocky/main",
-                "rarity": 45,
+                "rarity": 15,
                 "caveStartHeight": {
-                    "max": 90,
+                    "max": 125,
                     "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "rocky/huge",
+                "rarity": 180,
+                "caveStartHeight": {
+                    "max": 120,
+                    "min": 90,
                     "style": {"style": "STATIC"}
                 }
             },
@@ -139,11 +129,82 @@
                 "rarity": 10,
                 "caveStartHeight": {
                     "max": 60,
+                    "min": 15,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/huge",
+                "rarity": 220,
+                "caveStartHeight": {
+                    "max": 70,
+                    "min": 30,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "plain/main",
+                "rarity": 20,
+                "caveStartHeight": {
+                    "max": 130,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "mountain/mesa",
+                "rarity": 15,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 190,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lush/huge",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 100,
+                    "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/river",
+                "rarity": 70,
+                "caveStartHeight": {
+                    "max": 5,
+                    "min": 5,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/lake",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 20,
                     "min": 10,
                     "style": {"style": "STATIC"}
                 }
+            },
+            {
+                "breakSurface": false,
+                "cave": "sculk/huge",
+                "rarity": 550,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 30,
+                    "style": {"style": "STATIC"}
+                }
             }
-        ],
+        ]
+    },
     "landBiomeZoom": 7,
     "shoreHeightMin": 3.2,
     "shoreHeightMax": 6.2,

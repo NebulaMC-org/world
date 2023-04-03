@@ -1,0 +1,208 @@
+{
+    "name": "Ice Spikes",
+    "derivative": "SNOWY_TAIGA",
+    "color": "#3E5D8F",
+    "rarity": 10,
+    "vanillaDerivative": "SNOWY_TAIGA",
+    "generators": [{
+        "min": 6,
+        "max": 11,
+        "generator": "plain"
+    }],
+    "customDerivitives": [{
+        "category": "icy",
+        "id": "frozen_plains",
+        "waterColor": "#216FC4",
+        "fogColor": "#A6D1FF",
+        "waterFogColor": "#216FC4",
+        "downfallType": "snow",
+        "temperature": -3,
+        "foliageColor": "#B8D0E1",
+        "grassColor": "#D0E1FF"
+    }],
+    "layers": [
+        {
+            "minHeight": 0,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:snow_block"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:packed_ice"}]
+        },
+        {
+            "minHeight": 5,
+            "maxHeight": 7,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+    "decorators": [{
+        "chance": 1,
+        "variance": {
+            "style": "IRIS",
+            "zoom": 0.5
+        },
+        "palette": [
+            {
+                "data": {"layers": 1},
+                "block": "minecraft:snow"
+            },
+            {"block": "minecraft:air"}
+        ]
+    }],
+    "objects": [
+        {
+            "chance": 0.9,
+            "density": 2,
+            "snow": 0.35,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "xAxis": {
+                    "min": 0,
+                    "max": 15,
+                    "interval": 1,
+                    "enabled": true
+                },
+                "zAxis": {
+                    "min": 0,
+                    "max": 15,
+                    "interval": 10,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "structures/ice-spike-medium",
+                "structures/ice-spike-small",
+                "structures/ice-spike-medium2",
+                "structures/ice-spike-small2"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -5,
+                "z": 0,
+                "yRandom": 3
+            },
+            "mode": "MIN_HEIGHT"
+        },
+        {
+            "chance": 0.35,
+            "density": 1,
+            "snow": 0.35,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "xAxis": {
+                    "min": 0,
+                    "max": 15,
+                    "interval": 1,
+                    "enabled": true
+                },
+                "zAxis": {
+                    "min": 0,
+                    "max": 15,
+                    "interval": 1,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "structures/ice-spike-large",
+                "structures/ice-spike-large2"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -7,
+                "z": 0,
+                "yRandom": 4
+            },
+            "mode": "MIN_HEIGHT"
+        },
+        {
+            "chance": 0.02,
+            "density": 1,
+            "snow": 0.35,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "xAxis": {
+                    "min": 0,
+                    "max": 15,
+                    "interval": 1,
+                    "enabled": true
+                },
+                "zAxis": {
+                    "min": 0,
+                    "max": 15,
+                    "interval": 1,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "structures/ice-spike-giant"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -10,
+                "z": 0,
+                "yRandom": 5
+            },
+            "mode": "MIN_HEIGHT"
+        },
+        {
+            "chance": 0.1,
+            "density": 3,
+            "snow": 0.35,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/icespec1",
+                "clutter/icespec2",
+                "clutter/icespec3",
+                "clutter/icespec4",
+                "clutter/icespec5"
+            ]
+        },
+        {
+            "chance": 0.0125,
+            "density": 1,
+            "place": ["structures/snowulder"]
+        }
+    ],
+    "wall": {"palette": [
+        {"block": "minecraft:stone"},
+        {"block": "minecraft:andesite"}
+    ]}
+}

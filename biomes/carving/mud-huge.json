@@ -1,0 +1,67 @@
+{
+    "name": "Muddy Cavern",
+    "wall": {
+        "palette": [{"block": "minecraft:mud"}]
+    },
+    "layers": [{
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [{
+            "block": "minecraft:mud",
+            "weight": 6
+        }
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.1,
+            "absoluteMaxStack": 1,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 35,
+            "palette": [{
+                "block": "minecraft:hanging_roots"
+            }]
+        },
+        {
+            "partOf": "CEILING",
+            "chance": 0.3,
+            "absoluteMaxStack": 8,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 100,
+            "palette": [{
+                "block": "minecraft:mangrove_roots"
+            }]
+        },
+        {
+            "partOf": "CEILING",
+            "chance": 0.02,
+            "absoluteMaxStack": 1,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 100,
+            "palette": [{
+                "block": "minecraft:ochre_froglight"
+            }]
+        }
+    ],
+    "caveCeilingLayers": [{
+        "maxHeight": 2,
+        "minHeight": 2,
+        "style":{
+            "style": "NOWHERE_CELLULAR",
+            "zoom": 0.4
+        },
+        "palette": [{
+            "block": "minecraft:mud",
+            "weight": 8
+        },
+        {
+            "block": "minecraft:mangrove_wood",
+            "weight": 1
+        }
+        ]
+    }]
+}

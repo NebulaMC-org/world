@@ -1,0 +1,50 @@
+{
+    "name": "Ice Cavern",
+    "wall": {"palette": [{"block": "minecraft:packed_ice"}]},
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "style": {"style": "NOWHERE"},
+            "zoom": 0.4,
+            "palette": [
+                {
+                    "weight": 5,
+                    "block": "minecraft:packed_ice"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "style": {"style": "NOWHERE"},
+            "zoom": 0.4,
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:packed_ice"
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.08,
+            "absoluteMaxStack": 11,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 35,
+            "palette": [{
+                "block": "minecraft:ice"
+            }]
+        }
+    ],
+    "caveCeilingLayers": [
+        {
+            "maxHeight": 2,
+            "minHeight": 1,
+            "palette": [{"block": "minecraft:packed_ice"}]
+        }
+    ]
+}

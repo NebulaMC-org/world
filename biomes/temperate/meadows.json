@@ -59,6 +59,48 @@
     ],
     "objects": [
         {
+            "chance": 0.0004,
+            "density": 1,
+            "place": [
+                "carvings/ravine1",
+                "carvings/ravine2",
+                "carvings/ravine3"
+            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
+            "yAxis": {
+                "interval": 90,
+                "max": 360,
+                "min": 0
+            },
+            "translate":{
+                "y": -40
+            }
+        },
+        {
+            "chance": 0.0004,
+            "density": 1,
+            "place": [
+                "carvings/ravine1",
+                "carvings/ravine2",
+                "carvings/ravine3"
+            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
+            "yAxis": {
+                "interval": 90,
+                "max": 360,
+                "min": 0
+            },
+            "translate":{
+                "y": 0
+            }
+        },
+        {
             "mode": "PAINT",
             "chance": 0.009,
             "rotation": {

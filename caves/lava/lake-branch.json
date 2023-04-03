@@ -9,12 +9,7 @@
         "caves": [{
             "breakSurface": false,
             "cave": "lava/river",
-            "rarity": 200
-        },
-        {
-            "breakSurface": false,
-            "cave": "crystal/vertus",
-            "rarity": 50
+            "rarity": 100
         }]
     },
     "worm": {

@@ -3,7 +3,7 @@
     "wall": {
         "minHeight": 2,
         "maxHeight": 2,
-        "style": {"style": "STATIC"},
+        "style": {"style": "NOWHERE_CELLULAR"},
         "zoom": 0.4,
         "palette": [
             {"block": "minecraft:jungle_wood"},

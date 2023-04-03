@@ -4,7 +4,7 @@
         "max": 400,
         "min": 15
     },
-    "customBiome": "carving/plain",
+    "customBiome": "carving/rocky",
     "worm": {
         "girth": {
             "max": 3,

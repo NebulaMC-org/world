@@ -9,16 +9,16 @@
         "caves": [{
             "breakSurface": false,
             "cave": "rocky/huge-branch",
-            "rarity": 1
+            "rarity": 2
         }]
     },
     "worm": {
         "girth": {
-            "max": 10,
-            "min": 10,
+            "max": 8,
+            "min": 8,
             "style": {"style": "NOWHERE"}
         },
-        "maxDistance": 200,
+        "maxDistance": 150,
         "yStyle": {
             "min": -4,
             "max": 4,

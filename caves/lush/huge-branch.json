@@ -7,14 +7,14 @@
     "customBiome": "carving/lush-huge",
     "worm": {
         "girth": {
-            "max": 14,
-            "min": 14,
+            "max": 12,
+            "min": 12,
             "style": {"style": "NOWHERE"}
         },
         "maxDistance": 20,
         "yStyle": {
-            "min": -3,
-            "max": 3,
+            "min": 0,
+            "max": 0,
             "generator": {
                 "zoom": 3,
                 "style": "NOWHERE"

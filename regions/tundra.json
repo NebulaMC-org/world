@@ -1,0 +1,218 @@
+{
+    "name": "Tundra",
+    "color": "#9CB0B9",
+    "rarity": 1,
+    "landBiomes": [
+        "tundra/taiga",
+        "tundra/redwood-forest",
+        "tundra/sequia-redwoods",
+        "tundra/magic-forest",
+        "tundra/autumn",
+        "tundra/forest",
+        "tundra/spruce-denmyre",
+        "tundra/mountains",
+        "tundra/mountains",
+        "tundra/mountains-extended-cliffs",
+        "mountain/hills",
+        "mountain/forest-extended",
+        "tundra/frosted-peaks",
+        "mountain/forest",
+        "mountain/plains",
+        "mountain/cliffs",
+        "mountain/mountain",
+        "tundra/ether",
+        "tundra/bonsai-forest"
+    ],
+    "objects": [
+        {
+            "heightmap": {
+                "seed": 1337,
+                "style": {
+                    "style": "SIMPLEX",
+                    "multiplier": 10
+                },
+                "offsetY": 20
+            },
+            "chance": 0.04,
+            "bottom": true,
+            "density": 1,
+            "place": [
+                "structures/amethyst1",
+                "structures/amethyst2",
+                "structures/amethyst3",
+                "structures/amethyst4",
+                "structures/amethyst5",
+                "structures/amethyst6"
+            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
+            "enabled": true,
+            "xAxis": {
+                "interval": 90,
+                "max": 360,
+                "min": 0
+            },
+            "yAxis": {
+                "interval": 90,
+                "max": 360,
+                "min": 0
+            },
+            "translate": {
+                "yRandom": 5
+            }
+        }
+    ],
+    "carving": {
+        "caves": [
+            {
+                "breakSurface": false,
+                "cave": "drip/main",
+                "rarity": 30,
+                "caveStartHeight": {
+                    "max": 130,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "rocky/main",
+                "rarity": 15,
+                "caveStartHeight": {
+                    "max": 125,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "rocky/huge",
+                "rarity": 180,
+                "caveStartHeight": {
+                    "max": 120,
+                    "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/main",
+                "rarity": 10,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 15,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/huge",
+                "rarity": 220,
+                "caveStartHeight": {
+                    "max": 70,
+                    "min": 30,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "plain/main",
+                "rarity": 20,
+                "caveStartHeight": {
+                    "max": 130,
+                    "min": 40,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "mountain/main",
+                "rarity": 5,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 190,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lush/huge",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 100,
+                    "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/river",
+                "rarity": 70,
+                "caveStartHeight": {
+                    "max": 5,
+                    "min": 5,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lava/lake",
+                "rarity": 350,
+                "caveStartHeight": {
+                    "max": 20,
+                    "min": 10,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "sculk/huge",
+                "rarity": 550,
+                "caveStartHeight": {
+                    "max": 60,
+                    "min": 30,
+                    "style": {"style": "STATIC"}
+                }
+            }
+        ]
+    },
+    "shoreBiomes": [
+        "tundra/shore/beach",
+        "tundra/shore/beach-stone"
+    ],
+    "seaBiomes": ["mountain/sea/river"],
+    "entitySpawners": [
+        "tundra/passive",
+        "tundra/hostile",
+        "tundra/cave",
+        "tundra/water"
+    ],
+    "riverBiomes": [
+        "tundra/sea/river",
+        "tundra/sea/river-rocky",
+        "mountain/sea/river",
+        "mountain/sea/river-soft"
+    ],
+    "deposits": [{
+        "minHeight": 20,
+        "maxPerChunk": 8,
+        "maxHeight": 102,
+        "minPerChunk": 2,
+        "minSize": 3,
+        "maxSize": 8,
+        "palette": [{"block": "minecraft:emerald_ore"}],
+        "varience": 8
+    }],
+    "riverRarity": 1,
+    "landBiomeZoom": 4.5,
+    "shoreHeightMin": 2.2,
+    "shoreHeightMax": 5.2,
+    "shoreHeightZoom": 1.14,
+    "riverThickness": 0.025,
+    "loot": {
+        "mode": "REPLACE",
+        "tables": ["cold/food","cold/treasure","snow/clutter"]
+    }
+}

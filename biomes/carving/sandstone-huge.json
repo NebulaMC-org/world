@@ -1,0 +1,43 @@
+{
+    "name": "Sandstone Cavern",
+    "wall": {
+        "palette": [{"block": "minecraft:sandstone"}]
+    },
+    "layers": [{
+        "maxHeight": 3,
+        "minHeight": 3,
+        "palette": [{
+            "block": "minecraft:smooth_sandstone",
+            "weight": 8
+        }]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.02,
+            "absoluteMaxStack": 11,
+            "scaleStack": true,
+            "stackMin": 5,
+            "stackMax": 35,
+            "palette": [{
+                "block": "minecraft:sandstone_wall"
+            }]
+        },
+        {
+            "chance": 0.005,
+            "stackMin": 1,
+            "stackMax": 1,
+            "palette": [{
+                "block": "minecraft:dead_bush"
+            }]
+        }
+    ],
+    "caveCeilingLayers": [{
+        "maxHeight": 3,
+        "minHeight": 3,
+        "palette": [{
+            "block": "minecraft:smooth_sandstone",
+            "weight": 8
+        }]
+    }]
+}

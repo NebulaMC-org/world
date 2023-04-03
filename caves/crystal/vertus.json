@@ -7,33 +7,33 @@
     "customBiome": "carving/vertus-crystal",
     "worm": {
         "girth": {
-            "max": 7,
-            "min": 4,
+            "max": 5,
+            "min": 3,
             "style": {"style": "NOWHERE"}
         },
-        "maxDistance": 200,
+        "maxDistance": 11,
         "yStyle": {
-            "min": -1,
-            "max": 1,
+            "min": 0,
+            "max": 0,
             "generator": {
                 "zoom": 3,
                 "style": "NOWHERE"
             }
         },
         "xStyle": {
-            "min": -1,
-            "max": 1,
+            "min": -7,
+            "max": 7,
             "generator": {
                 "zoom": 0.6,
-                "style": "NOWHERE"
+                "style": "FLAT"
             }
         },
         "zStyle": {
-            "min": -1,
-            "max": 1,
+            "min": -7,
+            "max": 7,
             "generator": {
                 "zoom": 0.6,
-                "style": "NOWHERE"
+                "style": "FLAT"
             }
         }
     }
