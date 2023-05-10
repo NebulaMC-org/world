@@ -1,0 +1,57 @@
+{
+    "name": "Spiky Deepslate Cavern",
+    "wall": {"palette": [{"block": "minecraft:deepslate"}]},
+    "layers": [{
+        "style": {
+            "style": "TRIOCTAVE_FRACTAL_FBM_SIMPLEX",
+            "zoom": 0.005
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:deepslate", "weight": 7},
+            {"block": "minecraft:smooth_basalt", "weight": 2},
+            {"block": "minecraft:magma_block", "weight": 5}
+        ]
+    }],
+    "caveCeilingLayers": [{
+        "style": {
+            "style": "TRIOCTAVE_FRACTAL_FBM_SIMPLEX",
+            "zoom": 0.005
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:deepslate", "weight": 4},
+            {"block": "minecraft:magma_block", "weight": 2}
+        ]
+    }],
+    "decorators": [
+        {
+            "partOf": "CEILING",
+            "chance": 0.02,
+            "style": {
+                "style": "STATIC",
+                "zoom": 1.5
+            },
+            "palette": [{
+                "block": "minecraft:glow_lichen"
+            }]
+        },
+        {
+        "style":{
+            "style": "PERLIN",
+            "zoom": 0.28
+        },
+        "chance": 0.40,
+        "scaleStack": true,
+        "stackMin": 10,
+        "stackMax": 100,
+        "palette": [{
+            "block": "minecraft:basalt"
+        }],
+        "absoluteMaxStack": 20
+    }
+    ]
+
+}

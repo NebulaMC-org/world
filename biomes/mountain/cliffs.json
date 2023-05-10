@@ -16,7 +16,7 @@
             {"block": "minecraft:stone"},
             {"block": "minecraft:andesite"},
             {"block": "minecraft:gravel"},
-            {"block": "minecraft:cyan_terracotta"}
+            {"block": "minecraft:cobblestone"}
         ]
     },
     "layers": [
@@ -35,7 +35,7 @@
             "slopeCondition": {"minimumSlope": 3.95},
             "palette": [
                 {"block": "minecraft:gravel"},
-                {"block": "minecraft:cyan_terracotta"}
+                {"block": "minecraft:cobblestone"}
             ]
         },
         {

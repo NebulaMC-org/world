@@ -109,7 +109,7 @@
             },
             {
                 "breakSurface": false,
-                "cave": "deep/huge",
+                "cave": "deep/huge-spiky",
                 "rarity": 220,
                 "caveStartHeight": {
                     "max": 70,

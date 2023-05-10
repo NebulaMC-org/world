@@ -59,6 +59,22 @@
             ]
         },
         {
+        "style":{
+            "style": "GLOB_IRIS",
+            "zoom": 0.28
+        },
+        "chance": 0.1,
+        "scaleStack": false,
+        "stackMin": 1,
+        "stackMax": 6,
+        "topPalette": [
+            {"block": "minecraft:big_dripleaf"}
+        ],
+        "palette": [{
+            "block": "minecraft:big_dripleaf_stem"
+        }]
+        },
+        {
             "partOf": "CEILING",
             "chance": 0.05,
             "absoluteMaxStack": 30,
