@@ -175,6 +175,16 @@
             },
             {
                 "breakSurface": false,
+                "cave": "lush/main",
+                "rarity": 90,
+                "caveStartHeight": {
+                    "max": 80,
+                    "min": 20,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
                 "cave": "lava/river",
                 "rarity": 70,
                 "caveStartHeight": {

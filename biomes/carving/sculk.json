@@ -13,6 +13,17 @@
             {"block": "minecraft:sculk", "weight": 7},
             {"block": "minecraft:deepslate"}
         ]
+    },
+    {
+        "style": {
+            "style": "STATIC",
+            "zoom": 1
+        },
+        "maxHeight": 1,
+        "minHeight": 1,
+        "palette": [
+            {"block": "minecraft:deepslate"}
+        ]
     }],
     "caveCeilingLayers": [{
         "maxHeight": 4,

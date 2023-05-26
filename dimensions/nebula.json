@@ -40,7 +40,7 @@
         {"structure": "dungeon-spider", "rarity": 300},
         {"structure": "stronghold", "rarity": 3500}
     ],
-    "regionZoom": 30,
+    "regionZoom": 40,
     "aggressiveBiomeReshuffle": false,
     "regions": [
         "temperate",
@@ -56,22 +56,66 @@
         "style": "CELLULAR_IRIS_THICK",
         "axialFracturing": true,
         "fracture": {
-            "multiplier": 55,
+            "multiplier": 75,
             "axialFracturing": true,
             "style": "NOWHERE",
-            "zoom": 0.15,
+            "zoom": 0.25,
             "fracture": {
                 "axialFracturing": true,
                 "style": "SIMPLEX",
-                "zoom": 0.15,
-                "multiplier": 4
+                "zoom": 0.25,
+                "multiplier": 10
             }
         }
     },
     "shoreBiomeStyle": {"style": "NOWHERE_CELLULAR"},
+    "ores": [
+        {
+            "range":{"max": 64, "min": 0},
+            "generateSurface": true,
+            "threshold": 1,
+            "palette":{
+                "palette": [{"block": "minecraft:deepslate"}]
+            }
+        },
+        {
+            "range":{"max": 69, "min": 65},
+            "generateSurface": true,
+            "threshold": 0.75,
+            "palette":{
+                "palette": [{"block": "minecraft:deepslate"}]
+            }
+
+        },
+        {
+            "range":{"max": 74, "min": 70},
+            "generateSurface": true,
+            "threshold": 0.5,
+            "palette":{
+                "palette": [{"block": "minecraft:deepslate"}]
+            }
+
+        },
+        {
+            "range":{"max": 79, "min": 75},
+            "generateSurface": true,
+            "threshold": 0.25,
+            "palette":{
+                "palette": [{"block": "minecraft:deepslate"}]
+            }
+        },
+        {
+            "range":{"max": 100, "min": 0},
+            "generateSurface": true,
+            "threshold": 0.01,
+            "palette":{
+                "palette": [{"block": "minecraft:lava", "data": {"level": 1}}]
+            }
+        }
+    ],
     "deposits": [
         {
-            "minHeight": 19,
+            "minHeight": 64,
             "maxPerChunk": 8,
             "maxHeight": 190,
             "minPerChunk": 1,
@@ -81,7 +125,7 @@
             "varience": 2
         },
         {
-            "minHeight": 19,
+            "minHeight": 64,
             "maxPerChunk": 8,
             "maxHeight": 210,
             "minPerChunk": 1,
@@ -91,7 +135,7 @@
             "varience": 2
         },
         {
-            "minHeight": 19,
+            "minHeight": 64,
             "maxPerChunk": 8,
             "maxHeight": 209,
             "minPerChunk": 1,
@@ -101,7 +145,7 @@
             "varience": 2
         },
         {
-            "minHeight": 19,
+            "minHeight": 64,
             "maxPerChunk": 8,
             "maxHeight": 189,
             "minPerChunk": 1,
@@ -111,91 +155,152 @@
             "varience": 2
         },
         {
-            "minHeight": 1,
-            "maxPerChunk": 128,
-            "maxHeight": 33,
-            "minPerChunk": 128,
-            "minSize": 8,
-            "maxSize": 4,
-            "palette": [{"block": "minecraft:deepslate"}],
-            "varience": 4
-        },
-        {
-            "minHeight": 5,
-            "maxPerChunk": 9,
-            "maxHeight": 51,
-            "minPerChunk": 5,
-            "minSize": 4,
-            "maxSize": 8,
-            "palette": [
-                {"block": "minecraft:deepslate_copper_ore"},
-                {"block": "minecraft:deepslate_diamond_ore"},
-                {"block": "minecraft:deepslate_emerald_ore"},
-                {"block": "minecraft:deepslate_gold_ore"},
-                {"block": "minecraft:deepslate_iron_ore"},
-                {"block": "minecraft:deepslate_coal_ore"},
-                {"block": "minecraft:deepslate_redstone_ore"},
-                {"block": "minecraft:deepslate_lapis_ore"}
-            ],
-            "varience": 4
+            "minHeight": 8,
+            "maxPerChunk": 24,
+            "maxHeight": 64,
+            "minPerChunk": 3,
+            "minSize": 25,
+            "maxSize": 25,
+            "palette": [{"block": "minecraft:tuff"}],
+            "varience": 2
         },
         {
             "minHeight": 64,
-            "maxHeight": 384,
-            "maxPerChunk": 30,
+            "maxHeight": 256,
+            "maxPerChunk": 20,
             "minPerChunk": 20,
-            "minSize": 3,
-            "maxSize": 6,
+            "minSize": 5,
+            "maxSize": 17,
             "palette": [{"block": "minecraft:coal_ore"}],
             "varience": 5
         },
         {
-            "minHeight": 48,
-            "maxHeight": 160,
+            "minHeight": 200,
+            "maxHeight": 512,
+            "maxPerChunk": 30,
+            "minPerChunk": 30,
+            "minSize": 5,
+            "maxSize": 17,
+            "palette": [{"block": "minecraft:coal_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 64,
+            "maxHeight": 176,
             "maxPerChunk": 16,
             "minPerChunk": 16,
             "minSize": 3,
-            "maxSize": 6,
+            "maxSize": 10,
             "palette": [{"block": "minecraft:copper_ore"}],
             "varience": 5
         },
         {
-            "minHeight": 5,
+            "minHeight": 48,
+            "maxHeight": 80,
+            "maxPerChunk": 5,
+            "minPerChunk": 5,
+            "minSize": 4,
+            "maxSize": 15,
+            "palette": [{"block": "minecraft:deepslate_copper_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 64,
             "maxHeight": 128,
-            "maxPerChunk": 4,
-            "minPerChunk": 2,
-            "minSize": 3,
-            "maxSize": 6,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "minSize": 2,
+            "maxSize": 7,
             "palette": [{"block": "minecraft:lapis_ore"}],
             "varience": 5
         },
         {
-            "minHeight": 5,
-            "maxHeight": 384,
+            "minHeight": 0,
+            "maxHeight": 64,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "minSize": 2,
+            "maxSize": 7,
+            "palette": [{"block": "minecraft:deepslate_lapis_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 144,
+            "maxHeight": 512,
             "maxPerChunk": 90,
-            "minPerChunk": 10,
+            "minPerChunk": 90,
             "minSize": 3,
-            "maxSize": 6,
+            "maxSize": 9,
             "palette": [{"block": "minecraft:iron_ore"}],
             "varience": 5
         },
         {
-            "minHeight": 5,
-            "maxHeight": 96,
-            "maxPerChunk": 4,
-            "minPerChunk": 1,
+            "minHeight": 64,
+            "maxHeight": 144,
+            "maxPerChunk": 5,
+            "minPerChunk": 5,
             "minSize": 3,
-            "maxSize": 6,
+            "maxSize": 9,
+            "palette": [{"block": "minecraft:iron_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 104,
+            "maxHeight": 144,
+            "maxPerChunk": 5,
+            "minPerChunk": 5,
+            "minSize": 3,
+            "maxSize": 9,
+            "palette": [{"block": "minecraft:iron_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 0,
+            "maxHeight": 64,
+            "maxPerChunk": 5,
+            "minPerChunk": 5,
+            "minSize": 3,
+            "maxSize": 9,
+            "palette": [{"block": "minecraft:deepslate_iron_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 32,
+            "maxHeight": 64,
+            "maxPerChunk": 5,
+            "minPerChunk": 5,
+            "minSize": 3,
+            "maxSize": 9,
+            "palette": [{"block": "minecraft:deepslate_iron_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 64,
+            "maxHeight": 96,
+            "maxPerChunk": 2,
+            "minPerChunk": 2,
+            "minSize": 3,
+            "maxSize": 9,
             "palette": [{"block": "minecraft:gold_ore"}],
             "varience": 5
         },
         {
-            "minHeight": 5,
-            "maxHeight": 80,
-            "maxPerChunk": 8,
-            "minPerChunk": 4,
-            "minSize": 6,
-            "maxSize": 10,
+            "minHeight": 0,
+            "maxHeight": 64,
+            "maxPerChunk": 4,
+            "minPerChunk": 3,
+            "minSize": 3,
+            "maxSize": 9,
+            "palette": [{"block": "minecraft:deepslate_gold_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 64,
+            "maxHeight": 79,
+            "maxPerChunk": 3,
+            "minPerChunk": 3,
+            "minSize": 2,
+            "maxSize": 8,
             "palette": [{
                 "data": {"lit": false},
                 "block": "minecraft:redstone_ore"
@@ -203,22 +308,68 @@
             "varience": 7
         },
         {
-            "minHeight": 5,
-            "maxHeight": 80,
+            "minHeight": 0,
+            "maxHeight": 32,
+            "maxPerChunk": 5,
+            "minPerChunk": 5,
+            "minSize": 2,
+            "maxSize": 8,
+            "palette": [{
+                "data": {"lit": false},
+                "block": "minecraft:deepslate_redstone_ore"
+            }],
+            "varience": 7
+        },
+        {
+            "minHeight": 32,
+            "maxHeight": 64,
             "maxPerChunk": 4,
+            "minPerChunk": 4,
+            "minSize": 2,
+            "maxSize": 8,
+            "palette": [{
+                "data": {"lit": false},
+                "block": "minecraft:deepslate_redstone_ore"
+            }],
+            "varience": 7
+        },
+        {
+            "minHeight": 64,
+            "maxHeight": 80,
+            "maxPerChunk": 1,
             "minPerChunk": 1,
-            "minSize": 3,
-            "maxSize": 6,
+            "minSize": 1,
+            "maxSize": 4,
             "palette": [{"block": "minecraft:diamond_ore"}],
             "varience": 5
         },
         {
-            "minHeight": 48,
-            "maxHeight": 384,
-            "maxPerChunk": 4,
+            "minHeight": 0,
+            "maxHeight": 64,
+            "maxPerChunk": 1,
             "minPerChunk": 1,
-            "minSize": 3,
-            "maxSize": 6,
+            "minSize": 1,
+            "maxSize": 4,
+            "palette": [{"block": "minecraft:deepslate_diamond_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 0,
+            "maxHeight": 64,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "minSize": 4,
+            "maxSize": 8,
+            "palette": [{"block": "minecraft:deepslate_diamond_ore"}],
+            "varience": 5
+        },
+        {
+            "minHeight": 48,
+            "maxHeight": 512,
+            "maxPerChunk": 1,
+            "minPerChunk": 0,
+            "minSize": 0,
+            "maxSize": 1,
             "palette": [{"block": "minecraft:emerald_ore"}],
             "varience": 5
         }

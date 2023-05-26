@@ -1,23 +1,16 @@
 {
     "name": "Crystal Forest",
     "color": "#47B019",
-    "rarity": 12,
+    "rarity": 20,
     "derivative": "FLOWER_FOREST",
     "vanillaDerivative": "FOREST",
     "biomeScatter": ["FOREST"],
     "customDerivitives": [
         {
-            "id": "sakura_pink",
+            "id": "crystal-forest",
             "foliageColor": "#E78DFD",
             "waterColor": "#A5FFED",
             "grassColor": "#A8FF98",
-            "category": "forest"
-        },
-        {
-            "id": "sakura_child_forest",
-            "foliageColor": "#D260EE",
-            "waterColor": "#A5FFED",
-            "grassColor": "#64A522",
             "category": "forest"
         }
     ],

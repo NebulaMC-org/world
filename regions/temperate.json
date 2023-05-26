@@ -12,7 +12,8 @@
         "temperate/flower-forest",
         "temperate/meadows",
         "temperate/osaka-red-forest",
-        "temperate/crystal-forest"
+        "temperate/crystal-forest",
+        "temperate/sakura-forest"
     ],
     "objects": [
         {
@@ -144,6 +145,16 @@
                 "caveStartHeight": {
                     "max": 100,
                     "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lush/main",
+                "rarity": 90,
+                "caveStartHeight": {
+                    "max": 80,
+                    "min": 20,
                     "style": {"style": "STATIC"}
                 }
             },

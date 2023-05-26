@@ -12,6 +12,17 @@
         "palette": [
             {"block": "minecraft:sculk"}
         ]
+    },
+    {
+        "style": {
+            "style": "STATIC",
+            "zoom": 1
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:deepslate"}
+        ]
     }],
     "caveCeilingLayers": [{
         "maxHeight": 4,
@@ -46,7 +57,7 @@
     },
     {
         "style":{
-            "style": "GLOB_IRIS",
+            "style": "GLOB_IRIS_THICK",
             "zoom": 0.28
         },
         "chance": 0.3,

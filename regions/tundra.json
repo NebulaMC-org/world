@@ -62,6 +62,35 @@
             "translate": {
                 "yRandom": 5
             }
+        },
+        {
+            "heightmap": {
+                "seed": 1337,
+                "style": {
+                    "style": "SIMPLEX",
+                    "multiplier": 10
+                },
+                "offsetY": 5
+            },
+            "chance": 0.04,
+            "bottom": true,
+            "density": 1,
+            "place": [
+                "custom/ancient_city1"
+            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
+            "enabled": true,
+            "yAxis": {
+                "interval": 90,
+                "max": 360,
+                "min": 0
+            },
+            "translate": {
+                "yRandom": 5
+            }
         }
     ],
     "carving": {
@@ -143,6 +172,16 @@
                 "caveStartHeight": {
                     "max": 100,
                     "min": 90,
+                    "style": {"style": "STATIC"}
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "lush/main",
+                "rarity": 90,
+                "caveStartHeight": {
+                    "max": 80,
+                    "min": 20,
                     "style": {"style": "STATIC"}
                 }
             },

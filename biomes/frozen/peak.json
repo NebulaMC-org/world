@@ -48,6 +48,9 @@
         {
             "minHeight": 2,
             "maxHeight": 4,
+            "style":{
+                "style": "SIMPLEX"
+            },
             "palette": [
                 {
                     "weight": 2,

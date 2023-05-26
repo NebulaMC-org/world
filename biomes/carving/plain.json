@@ -2,21 +2,21 @@
     "name": "Cavern",
     "layers": [{
         "style": {"style": "STATIC"},
-        "maxHeight": 2,
-        "minHeight": 2,
+        "maxHeight": 1,
+        "minHeight": 1,
         "palette": [
             {
-                "block": "minecraft:stone"
+                "block": "minecraft:cave_air"
             }
         ]
     }],
     "caveCeilingLayers": [{
         "style": {"style": "STATIC"},
-        "maxHeight": 2,
-        "minHeight": 2,
+        "maxHeight": 1,
+        "minHeight": 1,
         "palette": [
             {
-                "block": "minecraft:stone"
+                "block": "minecraft:cave_air"
             }
         ]
     }]
