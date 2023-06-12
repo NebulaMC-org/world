@@ -12,8 +12,7 @@
         "temperate/flower-forest",
         "temperate/meadows",
         "temperate/osaka-red-forest",
-        "temperate/crystal-forest",
-        "temperate/sakura-forest"
+        "temperate/crystal-forest"
     ],
     "objects": [
         {
@@ -79,7 +78,7 @@
                 }
             },
             {
-                "breakSurface": true,
+                "breakSurface": false,
                 "cave": "rocky/huge",
                 "rarity": 180,
                 "caveStartHeight": {
@@ -134,7 +133,7 @@
                 "rarity": 5,
                 "caveStartHeight": {
                     "max": 400,
-                    "min": 190,
+                    "min": 150,
                     "style": {"style": "STATIC"}
                 }
             },
@@ -222,6 +221,7 @@
     }],
     "riverRarity": 1,
     "landBiomeZoom": 5.5,
+    "seaBiomeZoom": 25,
     "shoreHeightMin": 1,
     "shoreHeightMax": 5.2,
     "shoreHeightZoom": 1.14,

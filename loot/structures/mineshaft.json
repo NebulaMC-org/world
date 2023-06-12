@@ -1,17 +1,12 @@
 {
     "name": "Mineshaft",
     "rarity": 1,
+    "minPicked": 5,
+    "maxPicked": 12,
     "loot": [
         {
-            "type": "rail",
-            "maxAmount": 8,
-            "minAmount": 4,
-            "rarity": 1,
-            "slotTypes": "STORAGE"
-        },
-        {
             "type": "torch",
-            "maxAmount": 16,
+            "maxAmount": 10,
             "minAmount": 1,
             "rarity": 2,
             "slotTypes": "STORAGE"
@@ -114,7 +109,7 @@
         },
         {
             "type": "gold_ingot",
-            "maxamount": 3,
+            "maxamount": 6,
             "minAmount": 1,
             "rarity": 6,
             "slottypes": "STORAGE"
@@ -169,6 +164,13 @@
             "maxamount": 1,
             "rarity": 70,
             "slottypes": "STORAGE"
+        },
+        {
+            "type": "rail",
+            "maxAmount": 8,
+            "minAmount": 4,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         }
     ]
 }

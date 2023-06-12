@@ -232,7 +232,7 @@
             "chance": 0.04,
             "variance": {
                 "style": "TRIOCTAVE_SIMPLEX",
-                "zoom": 6,
+                "zoom": 0.5,
                 "fracture": {
                     "style": "STATIC",
                     "zoom": 0.2,
@@ -250,7 +250,7 @@
             "chance": 0.02,
             "variance": {
                 "style": "TRIOCTAVE_SIMPLEX",
-                "zoom": 6,
+                "zoom": 0.5,
                 "fracture": {
                     "style": "STATIC",
                     "zoom": 0.2,

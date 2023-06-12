@@ -1,0 +1,26 @@
+{
+    "object": "jigsaw/beecastle",
+    "placementOptions": {
+        "loot": ["structures/beecastle"],
+        "edit": [
+            {
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }
+        ],
+        "markers": [
+            {
+                "emptyAbove": true,
+                "mark": [
+                    {"block": "minecraft:moss_block"}
+                ],
+                "marker": "bee",
+                "maximumMarkers": 7
+            }
+        ],
+        "translate":{
+            "y": -85
+        }
+    }
+
+}

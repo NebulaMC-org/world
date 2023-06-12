@@ -1,0 +1,143 @@
+{
+    "name": "Hot Springs",
+    "color": "#57DFA9",
+    "rarity": 1,
+    "derivative": "JUNGLE",
+    "vanillaDerivative": "JUNGLE",
+    "generators": [{
+        "min": -20,
+        "max": 40,
+        "generator": "mountain"
+    }],
+    "customDerivitives": [{
+        "id": "hot_springs",
+        "foliageColor": "#478F04",
+        "grassColor": "#41A726",
+        "waterFogColor": "#51e1be",
+        "category": "jungle",
+        "waterColor": "#51e1be"
+    }],
+    "lockLayers": true,
+    "biomeStyle":{
+        "zoom": 70
+    },
+    "layers": [
+        {
+            "minHeight": 370,
+            "maxHeight": 370,
+            "palette": [{"block": "minecraft:stone"},{"block": "minecraft:andesite"},{"block": "minecraft:gravel"}],
+            "style":{
+                "style": "SIMPLEX",
+                "zoom": 0.01
+            }
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:dripstone_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{"block": "minecraft:smooth_red_sandstone"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:sand"}]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:yellow_terracotta"}]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:green_terracotta"}]
+        },
+        {
+            "minHeight": 15,
+            "maxHeight": 15,
+            "palette": [{"block": "minecraft:blue_terracotta"}]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.2,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/boulder1",
+                "clutter/boulder2",
+                "clutter/boulder4",
+                "clutter/boulder5",
+                "clutter/boulder6",
+                "clutter/boulder7",
+                "clutter/boulder8"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -2,
+                "z": 0
+            },
+            "onwater": false
+        },
+        {
+            "chance": 0.06,
+            "mode": "MIN_HEIGHT",
+            "density": 3,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/jungle/palm1",
+                "trees/jungle/palm2",
+                "trees/jungle/palm3",
+                "trees/jungle/palm4",
+                "trees/jungle/palm5",
+                "trees/jungle/palm6",
+                "trees/jungle/palm7",
+                "trees/jungle/palm8",
+                "trees/jungle/palm9",
+                "trees/jungle/palm10",
+                "trees/jungle/palm11",
+                "trees/jungle/palm12",
+                "trees/jungle/palm13"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:vine"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {"block": "minecraft:air"}
+                        ]
+                    }
+                }
+            ],
+            "translate": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "onwater": false
+        }
+    ]
+}

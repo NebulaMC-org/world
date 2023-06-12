@@ -1,12 +1,16 @@
 {
-    "maxDepth": 18,
-    "pieces": ["mineshaft/intersection"],
+    "maxDepth": 1,
+    "pieces": [
+        "mineshaft/large1","mineshaft/large2"
+        ],
         "overrideYRange" :{
         "max": 45,
-        "min": 7,
+        "min": 12,
         "style" : {
             "style": "STATIC"
         }
     },
-    "feature": {"entitySpawners": ["cavespider"]}
+    "feature": {
+        "entitySpawners": ["silverfish"]
+    }
 }

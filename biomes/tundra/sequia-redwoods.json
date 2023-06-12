@@ -210,7 +210,7 @@
         },
         {
             "chance": 0.008,
-            "mode": "FAST_STILT",
+            "mode": "PAINT",
             "place": [
                 "clutter/pumpkins1",
                 "clutter/pumpkins2",

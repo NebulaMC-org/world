@@ -1,0 +1,113 @@
+{
+    "name": "Wasteland",
+    "color": "#B9B03D",
+    "rarity": 1,
+    "derivative": "DESERT",
+    "vanillaDerivative": "DESERT",
+    "generators": [{
+        "generator": "plain",
+        "max": 2,
+        "min": 0
+    }],
+    "layers": [
+        {
+            "minHeight": 5,
+            "maxHeight": 5,
+            "zoom": 0.7,
+            "palette": [{
+                "weight": 1,
+                "block": "minecraft:orange_terracotta"
+            }]
+        }
+    ],
+    "features": [{
+        "zone": {
+            "interpolationRadius": 3,
+            "interpolator": "BILINEAR_STARCAST_6"
+        }
+    }],
+    "jigsawStructures": [
+        {
+            "rarity": 1700,
+            "structure": "pillager-outpost"
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.07,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/acacia/waste1",
+                "trees/acacia/waste2",
+                "trees/acacia/waste3"
+            ]
+        },
+        {
+            "chance": 0.1,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/junkpile1",
+                "clutter/junkpile2",
+                "clutter/junkpile3",
+                "clutter/junkpile4",
+                "clutter/junkpile5"
+            ],
+            "mode": "PAINT",
+            "translate":{
+                "y": 1
+            }
+
+        },
+        {
+            "chance": 0.01,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/junkcage",
+                "clutter/junkruins1"
+            ],
+            "mode": "PAINT",
+            "translate":{
+                "y": 1
+            }
+
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.01,
+            "palette": [{"block": "minecraft:dead_bush"}]
+        },
+        {
+            "chance": 0.1,
+            "style":{
+                "style": "VASCULAR",
+                "zoom": 0.5
+            },
+            "palette": [{"block": "minecraft:terracotta"}]
+        }
+    ]
+}

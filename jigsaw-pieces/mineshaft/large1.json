@@ -1,0 +1,32 @@
+{
+    "object": "jigsaw/mineshaft/mineshaft_large1",
+    "placementOptions": {
+        "loot": ["structures/ocean-ruins"],
+        "chance": 1,
+        "density": 1,
+        "overrideGlobalLoot": true,
+        "edit": [
+            {
+                "find": [{"block": "minecraft:oak_leaves"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            },
+            {
+                "find": [
+                    {
+                        "block": "minecraft:spawner"
+                    }
+                ],
+                "replace": {
+                    "palette": [
+                        {
+                            "block": "minecraft:spawner",
+                            "data": {
+                                "entitySpawn": "minecraft:cave_spider"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

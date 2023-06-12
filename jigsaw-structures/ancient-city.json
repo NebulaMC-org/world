@@ -1,0 +1,13 @@
+{
+    "maxDepth": 1,
+    "pieces": [
+        "ancient-city/main_room"
+        ],
+        "overrideYRange" :{
+        "max": 10,
+        "min": 10,
+        "style" : {
+            "style": "STATIC"
+        }
+    }
+}

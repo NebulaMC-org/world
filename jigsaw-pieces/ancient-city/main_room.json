@@ -1,0 +1,105 @@
+{
+    "object": "jigsaw/ancient-city/main_room",
+    "placementOptions": {
+        "loot": ["structures/ancient-city"],
+        "edit": [
+            {
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }
+        ]
+    },
+    "connectors": [
+        {
+            "name": "inside",
+            "targetName": "outside",
+            "innerConnector": true,
+            "rotateConnector": true,
+            "pools": ["ancient-city/outside"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": -34,
+                "y": -18,
+                "z": -64
+            },
+            "direction": "NORTH_NEGATIVE_Z"
+        },
+        {
+            "name": "inside",
+            "targetName": "outside",
+            "innerConnector": false,
+            "rotateConnector": true,
+            "pools": ["ancient-city/outside"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": 2,
+                "y": -18,
+                "z": -50
+            },
+            "direction": "NORTH_NEGATIVE_Z"
+        },
+        {
+            "name": "inside",
+            "targetName": "outside",
+            "innerConnector": false,
+            "rotateConnector": true,
+            "pools": ["ancient-city/outside"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": 51,
+                "y": -18,
+                "z": -50
+            },
+            "direction": "NORTH_NEGATIVE_Z"
+        },
+        {
+            "name": "inside",
+            "targetName": "outside",
+            "innerConnector": false,
+            "rotateConnector": true,
+            "pools": ["ancient-city/outside"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": 41,
+                "y": -18,
+                "z": 50
+            },
+            "direction": "SOUTH_POSITIVE_Z"
+        },
+        {
+            "name": "inside",
+            "targetName": "outside",
+            "innerConnector": false,
+            "rotateConnector": true,
+            "pools": ["ancient-city/outside"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": 9,
+                "y": -18,
+                "z": 50
+            },
+            "direction": "SOUTH_POSITIVE_Z"
+        },
+        {
+            "name": "inside",
+            "targetName": "outside",
+            "innerConnector": false,
+            "rotateConnector": true,
+            "pools": ["ancient-city/outside"],
+            "keepEntity": false,
+            "entityCount": 1,
+            "position": {
+                "x": -31,
+                "y": -18,
+                "z": 63
+            },
+            "direction": "SOUTH_POSITIVE_Z"
+        }
+    ],
+    "preprocessors": []
+}

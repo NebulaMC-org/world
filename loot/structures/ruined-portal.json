@@ -1,6 +1,8 @@
 {
     "name": "Ruined Portal",
     "rarity": 1,
+    "minPicked": 6,
+    "maxPicked": 12,
     "loot": [
         {
             "type": "iron_nugget",

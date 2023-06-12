@@ -60,37 +60,96 @@
                 "min": 0
             },
             "translate": {
-                "yRandom": 5
+                "yRandom": 25
             }
         },
         {
+            "chance": 0.008,
             "heightmap": {
                 "seed": 1337,
                 "style": {
                     "style": "SIMPLEX",
                     "multiplier": 10
                 },
-                "offsetY": 5
+                "offsetY": 40
             },
-            "chance": 0.04,
-            "bottom": true,
-            "density": 1,
+            "translate":{
+                "yRandom": 30
+            },
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
             "place": [
-                "custom/ancient_city1"
+                "jigsaw/dungeon"
             ],
-            "edit": [{
-                "find": [{"block": "minecraft:glass"}],
-                "replace": {"palette": [{"block": "minecraft:void_air"}]}
-            }],
-            "enabled": true,
-            "yAxis": {
-                "interval": 90,
-                "max": 360,
-                "min": 0
+            "bottom": true,
+            "loot": [{"name": "structures/dungeon"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                },
+                {
+                    "find":[{"block": "minecraft:spawner"}],
+                    "replace": {
+                        "palette": [
+                            {"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:skeleton"}},
+                            {"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:zombie"}},
+                            {"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:spider"}}
+                            ]
+                    }
+                }
+            ]
+        },
+        {
+            "chance": 0.001,
+            "heightmap": {
+                "seed": 1337,
+                "style": {
+                    "style": "SIMPLEX",
+                    "multiplier": 10
+                },
+                "offsetY": 40
             },
-            "translate": {
-                "yRandom": 5
-            }
+            "translate":{
+                "yRandom": 60
+            },
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/mineshaft/mineshaft_large1",
+                "jigsaw/mineshaft/mineshaft_large2",
+                "jigsaw/mineshaft/mineshaft_large3"
+            ],
+            "bottom": true,
+            "loot": [{"name": "structures/mineshaft"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:oak_leaves"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                },
+                {
+                    "find":[{"block": "minecraft:spawner"}],
+                    "replace": {
+                        "palette": [{"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:cave_spider"}}]
+                    }
+                }
+            ]
         }
     ],
     "carving": {
@@ -116,9 +175,9 @@
                 }
             },
             {
-                "breakSurface": true,
+                "breakSurface": false,
                 "cave": "rocky/huge",
-                "rarity": 180,
+                "rarity": 300,
                 "caveStartHeight": {
                     "max": 120,
                     "min": 90,
@@ -138,7 +197,7 @@
             {
                 "breakSurface": false,
                 "cave": "deep/huge",
-                "rarity": 220,
+                "rarity": 300,
                 "caveStartHeight": {
                     "max": 70,
                     "min": 30,
@@ -161,7 +220,7 @@
                 "rarity": 5,
                 "caveStartHeight": {
                     "max": 400,
-                    "min": 190,
+                    "min": 150,
                     "style": {"style": "STATIC"}
                 }
             },
@@ -178,7 +237,7 @@
             {
                 "breakSurface": false,
                 "cave": "lush/main",
-                "rarity": 90,
+                "rarity": 250,
                 "caveStartHeight": {
                     "max": 80,
                     "min": 20,
@@ -208,7 +267,7 @@
             {
                 "breakSurface": false,
                 "cave": "sculk/huge",
-                "rarity": 550,
+                "rarity": 800,
                 "caveStartHeight": {
                     "max": 60,
                     "min": 30,
@@ -221,7 +280,11 @@
         "tundra/shore/beach",
         "tundra/shore/beach-stone"
     ],
-    "seaBiomes": ["mountain/sea/river"],
+    "seaBiomes": [
+        "mountain/sea/river",
+        "temperate/sea/ocean",
+        "temperate/sea/ocean-deep"
+        ],
     "entitySpawners": [
         "tundra/passive",
         "tundra/hostile",
@@ -236,22 +299,19 @@
     ],
     "deposits": [{
         "minHeight": 20,
-        "maxPerChunk": 8,
+        "maxPerChunk": 4,
         "maxHeight": 102,
         "minPerChunk": 2,
-        "minSize": 3,
-        "maxSize": 8,
+        "minSize": 1,
+        "maxSize": 3,
         "palette": [{"block": "minecraft:emerald_ore"}],
         "varience": 8
     }],
     "riverRarity": 1,
+    "seaBiomeZoom": 25,
     "landBiomeZoom": 4.5,
     "shoreHeightMin": 2.2,
     "shoreHeightMax": 5.2,
     "shoreHeightZoom": 1.14,
-    "riverThickness": 0.025,
-    "loot": {
-        "mode": "REPLACE",
-        "tables": ["cold/food","cold/treasure","snow/clutter"]
-    }
+    "riverThickness": 0.025
 }

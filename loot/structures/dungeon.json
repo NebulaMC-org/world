@@ -1,72 +1,74 @@
 {
     "name": "Dungeon",
     "rarity": 1,
+    "minPicked": 4,
+    "maxPicked": 11,
     "loot": [
         {
             "type": "bone",
             "maxAmount": 8,
             "minAmount": 1,
-            "rarity": 2,
+            "rarity": 1,
             "slotTypes": "STORAGE"
         },
         {
             "type": "gunpowder",
             "maxAmount": 8,
             "minAmount": 1,
-            "rarity": 2,
+            "rarity": 1,
             "slotTypes": "STORAGE"
         },
         {
             "type": "rotten_flesh",
             "maxAmount": 8,
             "minAmount": 1,
-            "rarity": 2,
+            "rarity": 1,
             "slottypes": "STORAGE"
         },
         {
             "type": "string",
             "maxamount": 8,
             "minAmount": 1,
-            "rarity": 2,
+            "rarity": 1,
             "slottypes": "STORAGE"
         },
         {
             "type": "wheat",
             "maxamount": 4,
             "minAmount": 1,
-            "rarity": 3,
+            "rarity": 2,
             "slottypes": "STORAGE"
         },
         {
             "type": "bread",
             "maxamount": 1,
-            "rarity": 3,
+            "rarity": 2,
             "slottypes": "STORAGE"
         },
         {
             "type": "name_tag",
             "maxamount": 1,
-            "rarity": 3,
+            "rarity": 2,
             "slottypes": "STORAGE"
         },
         {
             "type": "saddle",
             "maxamount": 1,
-            "rarity": 3,
+            "rarity": 2,
             "slottypes": "STORAGE"
         },
         {
             "type": "coal",
             "maxamount": 4,
             "minAmount": 1,
-            "rarity": 4,
+            "rarity": 3,
             "slottypes": "STORAGE"
         },
         {
             "type": "redstone",
             "maxamount": 4,
             "minAmount": 1,
-            "rarity": 4,
+            "rarity": 3,
             "slottypes": "STORAGE"
         },
         {
@@ -132,7 +134,69 @@
             "type": "enchanted_book",
             "maxamount": 1,
             "rarity": 6,
-            "slottypes": "STORAGE"
+            "slottypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 2
+                },
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 3
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.1,
+                    "maxLevel": 2,
+                    "minLevel": 2
+                },
+                {
+                    "enchantment": "fortune",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 3
+                },
+                {
+                    "enchantment": "protection",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 2
+                },
+                {
+                    "enchantment": "projectile_protection",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 3
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 3
+                }
+            ]
         },
         {
             "type": "golden_horse_armor",

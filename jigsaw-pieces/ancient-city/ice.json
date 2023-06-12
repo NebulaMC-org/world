@@ -1,0 +1,18 @@
+{
+    "object": "jigsaw/ancient-city/ice",
+    "connectors": [{
+        "name": "outside",
+        "targetName": "inside",
+        "innerConnector": true,
+        "pools": [],
+        "keepEntity": false,
+        "entityCount": 1,
+        "position": {
+            "x": 8,
+            "y": -15,
+            "z": 0
+        },
+        "direction": "NORTH_NEGATIVE_Z"
+    }],
+    "preprocessors": []
+}

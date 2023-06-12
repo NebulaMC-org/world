@@ -1,0 +1,100 @@
+{
+    "name": "Bee Castle",
+    "rarity": 1,
+    "minPicked": 5,
+    "maxPicked": 13,
+    "loot": [
+        {
+            "type": "honey_bottle",
+            "maxAmount": 4,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "honeycomb",
+            "maxAmount": 4,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gold_ingot",
+            "maxAmount": 9,
+            "minAmount": 1,
+            "rarity": 4,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "ancient_debris",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 40,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "experience_bottle",
+            "maxAmount": 18,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "enchanted_book",
+            "maxamount": 1,
+            "rarity": 9,
+            "slottypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "binding_curse",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "vanishing_curse",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "frost_walker",
+                    "chance": 0.25,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "mending",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fortune",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 3
+                }
+            ]
+        },
+        {
+            "type": "diamond",
+            "maxamount": 2,
+            "minAmount": 1,
+            "rarity": 11,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "golden_apple",
+            "maxamount": 1,
+            "rarity": 30,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "enchanted_golden_apple",
+            "maxamount": 1,
+            "rarity": 70,
+            "slottypes": "STORAGE"
+        }
+    ]
+}

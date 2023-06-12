@@ -1,0 +1,18 @@
+{
+    "object": "jigsaw/ancient-city/ruins4",
+    "connectors": [{
+        "name": "outside",
+        "targetName": "inside",
+        "innerConnector": true,
+        "pools": [],
+        "keepEntity": false,
+        "entityCount": 1,
+        "position": {
+            "x": 0,
+            "y": -10,
+            "z": -1
+        },
+        "direction": "EAST_POSITIVE_X"
+    }],
+    "preprocessors": []
+}

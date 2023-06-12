@@ -1,6 +1,8 @@
 {
     "name": "Desert Pyramid",
     "rarity": 1,
+    "minPicked": 8,
+    "maxPicked": 16,
     "loot": [
         {
             "type": "bone",

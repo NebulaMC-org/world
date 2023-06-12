@@ -53,6 +53,24 @@
             "translate": {
                 "yRandom": 5
             }
+        },
+        {
+            "chance": 0.01,
+            "mode": "MIN_STILT",
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/mossy_coliseum"
+            ],
+            "loot": [{"name": "structures/coliseum"}],
+            "overrideGlobalLoot": true
         }
     ],
     "shoreBiomes": [
