@@ -1,0 +1,212 @@
+{
+    "name": "Dark Oak Forest",
+    "color": "#56C326",
+    "rarity": 8,
+    "derivative": "FOREST",
+    "vanillaDerivative": "FOREST",
+    "customDerivitives": [{
+        "id": "dark_oak_forest",
+        "foliageColor": "#315a18",
+        "grassColor": "#3d6414",
+        "category": "forest"
+    }],
+    "generators": [
+        {
+            "generator": "smooth-dunes",
+            "max": 5,
+            "min": 3
+        },
+        {
+            "generator": "rare-hills",
+            "max": 10,
+            "min": 0
+        }
+    ],
+    "wall": {"palette": [
+        {"block": "minecraft:stone"},
+        {"block": "minecraft:andesite"},
+        {"block": "minecraft:cobblestone"},
+        {"block": "minecraft:mossy_cobblestone"}
+    ]},
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:grass_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {"block": "minecraft:dirt"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "place": [
+                "trees/darkoak/denmyre1",
+                "trees/darkoak/denmyre2",
+                "trees/darkoak/denmyre3",
+                "trees/darkoak/denmyre4",
+                "trees/darkoak/denmyre5",
+                "trees/darkoak/denmyre6",
+                "trees/darkoak/denmyre7",
+                "trees/darkoak/denmyre8",
+                "trees/darkoak/denmyre9",
+                "trees/darkoak/denmyre10",
+                "trees/darkoak/denmyre11",
+                "trees/darkoak/denmyre12",
+                "trees/darkoak/denmyre13",
+                "trees/darkoak/denmyre14",
+                "trees/darkoak/denmyre15",
+                "trees/darkoak/denmyre15"
+            ],
+            "chance": 1,
+            "density": 4,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_STILT"
+        },
+        {
+            "place": [
+                "trees/mushroom/lumo1",
+                "trees/mushroom/lumo2",
+                "trees/mushroom/lumo3",
+                "trees/mushroom/lumo4",
+                "trees/mushroom/lumo5",
+                "trees/mushroom/browngeneric1",
+                "trees/mushroom/browngeneric2"
+            ],
+            "chance": 0.5,
+            "density": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            },
+            "mode": "MIN_HEIGHT"
+        },
+        {
+            "place": [
+                "clutter/boulder1",
+                "clutter/boulder2",
+                "clutter/boulder3",
+                "clutter/boulder4",
+                "clutter/boulder5",
+                "clutter/boulder6",
+                "clutter/boulder7",
+                "clutter/boulder8",
+                "clutter/boulder9",
+                "clutter/boulder10"
+            ],
+            "chance": 0.01,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            }
+        },
+        {
+            "chance": 0.001,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/woodland-mansion/woodland-mansion-hollowed"
+            ],
+            "markers": [
+                {
+                    "emptyAbove": true,
+                    "mark": [
+                        {"block": "minecraft:birch_planks"}
+                    ],
+                    "marker": "woodland-mansion",
+                    "maximumMarkers": 8
+                },
+                {
+                    "emptyAbove": true,
+                    "mark": [
+                        {"block": "minecraft:red_carpet"}
+                    ],
+                    "marker": "woodland-mansion",
+                    "maximumMarkers": 8
+                }
+            ],
+            "loot": [{"name": "structures/woodland-mansion"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:oak_leaves"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "mode": "MIN_HEIGHT"
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.03,
+            "palette": [{"block": "minecraft:tall_grass"}]
+        },
+        {
+            "chance": 0.5,
+            "palette": [{"block": "minecraft:grass"}]
+        },
+        {
+            "chance": 0.06,
+            "palette": [{"block": "minecraft:fern"}]
+        },
+        {
+            "chance": 0.04,
+            "palette": [{"block": "minecraft:red_mushroom"}]
+        },
+        {
+            "chance": 0.04,
+            "palette": [{"block": "minecraft:brown_mushroom"}]
+        },
+        {
+            "chance": 0.1,
+            "palette": [{"block": "minecraft:large_fern"}]
+        },
+        {
+            "chance": 0.05,
+            "palette": [{"block": "minecraft:cobblestone_slab"}]
+        }
+    ]
+}
