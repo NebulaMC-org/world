@@ -1,0 +1,177 @@
+{
+    "name": "Crystal Spring",
+    "color": "#56C326",
+    "rarity": 8,
+    "derivative": "FOREST",
+    "vanillaDerivative": "FOREST",
+    "customDerivitives": [{
+        "id": "crystal_spring",
+        "foliageColor": "#64B233",
+        "grassColor": "#77A620",
+        "category": "forest",
+        "waterColor": "#b6fff5",
+        "waterFogColor": "#b6fff5"
+    }],
+    "generators": [
+        {
+            "generator": "smooth-dunes",
+            "max": 15,
+            "min": 5
+        },
+        {
+            "generator": "rare-hills",
+            "max": 30,
+            "min": 0
+        }
+    ],
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:grass_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:dripstone_block"}]
+        },
+        {
+            "minHeight": 4,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:calcite"}]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:diorite"}]
+        }
+    ],
+    "objects": [
+        {
+            "mode": "PAINT",
+            "chance": 0.0025,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": ["clutter/bincluster1"]
+        },
+        {
+            "mode": "PAINT",
+            "chance": 0.00375,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": ["clutter/camp1"]
+        },
+        {
+            "place": [
+                "water/spring/small1"
+            ],
+            "chance": 0.1,
+            "density": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT"
+        },
+        {
+            "place": [
+                "water/spring/med1"
+            ],
+            "chance": 0.1,
+            "density": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT"
+        },
+        {
+            "place": [
+                "water/spring/large1"
+            ],
+            "chance": 0.1,
+            "density": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT"
+        },
+        {
+            "place": [
+                "trees/birch/antioch3",
+                "trees/birch/antioch4",
+                "trees/birch/antioch5",
+                "trees/birch/antioch6",
+                "trees/birch/antioch7",
+                "trees/birch/antioch8",
+                "trees/birch/antioch9",
+                "trees/birch/antioch10",
+                "trees/birch/antioch11",
+                "trees/birch/antioch12",
+                "trees/birch/antioch13"
+            ],
+            "chance": 1,
+            "density": 2,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT"
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.03,
+            "palette": [{"block": "minecraft:tall_grass"}]
+        },
+        {
+            "chance": 0.5,
+            "palette": [{"block": "minecraft:grass"}]
+        },
+        {
+            "chance": 0.06,
+            "palette": [{"block": "minecraft:fern"}]
+        },
+        {
+            "chance": 0.06,
+            "palette": [{"block": "minecraft:brown_mushroom"}]
+        }
+    ]
+}

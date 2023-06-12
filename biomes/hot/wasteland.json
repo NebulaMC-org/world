@@ -1,7 +1,7 @@
 {
     "name": "Wasteland",
     "color": "#B9B03D",
-    "rarity": 1,
+    "rarity": 8,
     "derivative": "DESERT",
     "vanillaDerivative": "DESERT",
     "generators": [{

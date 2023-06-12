@@ -12,7 +12,9 @@
         "temperate/flower-forest",
         "temperate/meadows",
         "temperate/osaka-red-forest",
-        "temperate/crystal-forest"
+        "temperate/crystal-forest",
+        "temperate/lush-gardens",
+        "temperate/crystal-spring"
     ],
     "objects": [
         {
