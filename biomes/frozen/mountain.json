@@ -23,6 +23,7 @@
     "children": [
         "frozen/mountain-extended",
         "frozen/peak",
+        "frozen/grand-peak",
         "frozen/mountain-cliffs"
     ],
     "generators": [{

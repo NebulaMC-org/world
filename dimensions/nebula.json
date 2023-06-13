@@ -46,7 +46,7 @@
         "swamp",
         "mushroom"
     ],
-    "focus": "temperate/dark-oak-forest",
+    "focus": "tundra/cursed-forest",
     "seaBiomeStyle": {"style": "SIMPLEX"},
     "landBiomeStyle": {
         "style": "CELLULAR_IRIS_THICK",

@@ -21,7 +21,8 @@
         "mountain/cliffs",
         "mountain/mountain",
         "tundra/ether",
-        "tundra/bonsai-forest"
+        "tundra/bonsai-forest",
+        "tundra/cursed-forest"
     ],
     "objects": [
         {
