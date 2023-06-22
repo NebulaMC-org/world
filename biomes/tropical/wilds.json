@@ -8,7 +8,7 @@
     "customDerivitives": [{
         "id": "tropical_wilds",
         "foliageColor": "#2C8806",
-        "grassColor": "#183F0E",
+        "grassColor": "#235c14",
         "waterColor": "#11BA89",
         "waterFogColor": "#11BA89",
         "category": "jungle"

@@ -1,7 +1,7 @@
 {
     "name": "Crystal Forest",
     "color": "#47B019",
-    "rarity": 30,
+    "rarity": 40,
     "derivative": "FLOWER_FOREST",
     "vanillaDerivative": "FOREST",
     "biomeScatter": ["FOREST"],

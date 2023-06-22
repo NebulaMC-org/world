@@ -1,7 +1,7 @@
 {
     "name": "Temperate Osaka Red Forest",
     "color": "#4CBB1B",
-    "rarity": 12,
+    "rarity": 8,
     "derivative": "FLOWER_FOREST",
     "vanillaDerivative": "FOREST",
     "biomeScatter": ["FOREST"],

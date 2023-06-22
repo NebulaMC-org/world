@@ -1,0 +1,64 @@
+{
+    "name": "Tropical Cliffs",
+    "color": "#56C326",
+    "rarity": 8,
+    "derivative": "FOREST",
+    "vanillaDerivative": "FOREST",
+    "customDerivitives": [{
+        "id": "tropical_cliffs",
+        "foliageColor": "#478F04",
+        "grassColor": "#41A726",
+        "category": "jungle",
+        "waterColor": "#3AB2A2",
+        "waterFogColor": "#3AB2A2"
+    }],
+    "generators": [
+        {
+            "generator": "rare-hills",
+            "max": 200,
+            "min": 0
+        }
+    ],
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:grass_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{"block": "minecraft:dripstone_block"}]
+        },
+        {
+            "style":{
+                "style": "IRIS",
+                "zoom": 0.02
+            },
+            "minHeight": 15,
+            "maxHeight": 15,
+            "palette": [{"block": "minecraft:stone"}, {"block": "minecraft:andesite"}]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.03,
+            "palette": [{"block": "minecraft:tall_grass"}]
+        },
+        {
+            "chance": 0.5,
+            "palette": [{"block": "minecraft:grass"}]
+        },
+        {
+            "chance": 0.06,
+            "palette": [{"block": "minecraft:fern"}]
+        }
+    ]
+}

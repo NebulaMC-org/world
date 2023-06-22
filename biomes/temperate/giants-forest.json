@@ -1,0 +1,143 @@
+{
+    "name": "Giants Forest",
+    "color": "#56C326",
+    "rarity": 18,
+    "derivative": "FOREST",
+    "vanillaDerivative": "FOREST",
+    "customDerivitives": [{
+        "id": "giants_forest",
+        "foliageColor": "#64B233",
+        "grassColor": "#77A620",
+        "category": "forest"
+    }],
+    "biomeStyle":{
+        "cellularZoom": 10
+    },
+    "generators": [
+        {
+            "generator": "smooth-dunes",
+            "max": 40,
+            "min": 10
+        },
+        {
+            "generator": "rare-hills",
+            "max": 30,
+            "min": 5
+        }
+    ],
+    "layers": [
+        {
+            "style": {
+                "style": "IRIS_DOUBLE",
+                "fracture": {
+                    "style": "NOWHERE",
+                    "zoom": 0.2
+                }
+            },
+            "zoom": 0.2,
+            "palette": [
+                {
+                    "weight": 3,
+                    "block": "minecraft:grass_block"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:moss_block"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:coarse_dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 5,
+            "maxHeight": 5,
+            "palette": [{"block": "minecraft:stone"}]
+        }
+    ],
+    "objects": [
+        {
+            "mode": "PAINT",
+            "chance": 0.00375,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": ["clutter/camp1"]
+        },
+        {
+            "place": [
+                "trees/mixed/AmyLarge1",
+                "trees/mixed/AmyLarge2",
+                "trees/mixed/AmyLarge3",
+                "trees/mixed/AmyLarge4",
+                "trees/mixed/AmyLarge5",
+                "trees/mixed/AmyLarge6",
+                "trees/mixed/AmyLarge7",
+                "trees/mixed/AmyLarge8"
+            ],
+            "chance": 0.8,
+            "density": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT"
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.01,
+            "palette": [{"block": "minecraft:tall_grass"}]
+        },
+        {
+            "chance": 0.08,
+            "palette": [{"block": "minecraft:large_fern"}]
+        },
+        {
+            "chance": 0.1,
+            "palette": [{"block": "minecraft:grass"}]
+        },
+        {
+            "chance": 0.3,
+            "palette": [{"block": "minecraft:fern"}]
+        },
+        {
+            "chance": 0.01,
+            "palette": [{
+                "block": "minecraft:candle",
+                "data": {"lit": "true", "candles": 1}
+            }]
+        },
+        {
+            "chance": 0.0075,
+            "palette": [{
+                "block": "minecraft:candle",
+                "data": {"lit": "true", "candles": 2}
+            }]
+        },
+        {
+            "chance": 0.0075,
+            "palette": [{
+                "block": "minecraft:candle",
+                "data": {"lit": "true", "candles": 3}
+            }]
+        }
+    ]
+}

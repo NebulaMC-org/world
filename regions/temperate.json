@@ -14,8 +14,10 @@
         "temperate/osaka-red-forest",
         "temperate/crystal-forest",
         "temperate/lush-gardens",
-        "temperate/crystal-spring",
-        "temperate/dark-oak-forest"
+        "temperate/lush-mountain",
+        "temperate/aspen-forest",
+        "temperate/dark-oak-forest",
+        "temperate/giants-forest"
     ],
     "objects": [
         {
@@ -56,6 +58,133 @@
             "translate": {
                 "yRandom": 5
             }
+        },
+        {
+            "chance": 0.00001,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/beecastle"
+            ],
+            "bottom": true,
+            "loot": [{"name": "structures/beecastle"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "markers": [
+            {
+                "emptyAbove": true,
+                "mark": [
+                    {"block": "minecraft:bee_nest"}
+                ],
+                "marker": "bee",
+                "maximumMarkers": 3
+            }
+            ],
+            "translate":{
+                "y": -85
+            }
+        },
+        {
+            "chance": 0.008,
+            "heightmap": {
+                "seed": 1337,
+                "style": {
+                    "style": "SIMPLEX",
+                    "multiplier": 10
+                },
+                "offsetY": 40
+            },
+            "translate":{
+                "yRandom": 30
+            },
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/dungeon"
+            ],
+            "bottom": true,
+            "loot": [{"name": "structures/dungeon"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                },
+                {
+                    "find":[{"block": "minecraft:spawner"}],
+                    "replace": {
+                        "palette": [
+                            {"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:skeleton"}},
+                            {"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:zombie"}},
+                            {"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:spider"}}
+                            ]
+                    }
+                }
+            ]
+        },
+        {
+            "chance": 0.003,
+            "heightmap": {
+                "seed": 1337,
+                "style": {
+                    "style": "SIMPLEX",
+                    "multiplier": 10
+                },
+                "offsetY": 40
+            },
+            "translate":{
+                "yRandom": 60
+            },
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/mineshaft/large1",
+                "jigsaw/mineshaft/large2",
+                "jigsaw/mineshaft/large3",
+                "jigsaw/mineshaft/large4",
+                "jigsaw/mineshaft/large5"
+            ],
+            "bottom": true,
+            "loot": [{"name": "structures/mineshaft"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:oak_leaves"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                },
+                {
+                    "find":[{"block": "minecraft:spawner"}],
+                    "replace": {
+                        "palette": [{"block": "minecraft:spawner","data": {"entitySpawn": "minecraft:cave_spider"}}]
+                    }
+                }
+            ]
         }
     ],
     "carving": {

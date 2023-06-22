@@ -1,13 +1,13 @@
 {
-    "name": "Crystal Spring",
+    "name": "Aspen Forest",
     "color": "#56C326",
     "rarity": 8,
     "derivative": "FOREST",
     "vanillaDerivative": "FOREST",
     "customDerivitives": [{
-        "id": "crystal_spring",
-        "foliageColor": "#64B233",
-        "grassColor": "#77A620",
+        "id": "aspen_forest",
+        "foliageColor": "#ffe800",
+        "grassColor": "#c9d02a",
         "category": "forest",
         "waterColor": "#b6fff5",
         "waterFogColor": "#b6fff5"
@@ -28,7 +28,11 @@
         {
             "palette": [
                 {
-                    "block": "minecraft:grass_block"
+                    "block": "minecraft:grass_block",
+                    "slopeCondition": {
+                        "minimumSlope": 0,
+                        "maximumSlope": 2.6
+                    }
                 }
             ]
         },
@@ -79,57 +83,6 @@
         },
         {
             "place": [
-                "water/spring/small1"
-            ],
-            "chance": 0.1,
-            "density": 1,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": 0,
-                    "max": 360
-                }
-            },
-            "mode": "MIN_HEIGHT"
-        },
-        {
-            "place": [
-                "water/spring/med1"
-            ],
-            "chance": 0.1,
-            "density": 1,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": 0,
-                    "max": 360
-                }
-            },
-            "mode": "MIN_HEIGHT"
-        },
-        {
-            "place": [
-                "water/spring/large1"
-            ],
-            "chance": 0.1,
-            "density": 1,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": 0,
-                    "max": 360
-                }
-            },
-            "mode": "MIN_HEIGHT"
-        },
-        {
-            "place": [
                 "trees/birch/antioch3",
                 "trees/birch/antioch4",
                 "trees/birch/antioch5",
@@ -153,7 +106,13 @@
                     "max": 360
                 }
             },
-            "mode": "MIN_HEIGHT"
+            "mode": "MIN_HEIGHT",
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:birch_leaves"}],
+                    "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
+                }
+            ]
         }
     ],
     "decorators": [

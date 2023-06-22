@@ -7,7 +7,7 @@
     "continentZoom": 1,
     "continentalStyle": {
         "imageMap":{
-            "image": "closedrivermap",
+            "image": "oceanmap",
             "centered": true,
             "tiled": true,
             "channel": "RED",
@@ -36,6 +36,7 @@
         }
     },
     "regionZoom": 40,
+    "biomeZoom": 15,
     "aggressiveBiomeReshuffle": false,
     "regions": [
         "temperate",
@@ -46,7 +47,6 @@
         "swamp",
         "mushroom"
     ],
-    "focus": "tundra/cursed-forest",
     "seaBiomeStyle": {"style": "SIMPLEX"},
     "landBiomeStyle": {
         "style": "CELLULAR_IRIS_THICK",

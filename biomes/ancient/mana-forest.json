@@ -1,0 +1,129 @@
+{
+    "name": "Mana Forest",
+    "color": "#56C326",
+    "rarity": 1,
+    "derivative": "FOREST",
+    "vanillaDerivative": "FOREST",
+    "customDerivitives": [
+        {
+            "grassColor": "#103d4d",
+            "foliageColor": "#369bb6",
+            "id": "mana_forest_blue",
+            "waterColor": "#3878bc",
+            "waterFogColor": "#6390bf",
+            "category": "forest",
+            "fogColor": "#799fc7"
+        },
+        {
+            "grassColor": "#104b4d",
+            "foliageColor": "#36afb6",
+            "id": "mana_forest_blue_green",
+            "waterColor": "#3878bc",
+            "waterFogColor": "#6390bf",
+            "category": "forest",
+            "fogColor": "#799fc7"
+        },
+        {
+            "grassColor": "#104d42",
+            "foliageColor": "#36b6a0",
+            "id": "mana_forest_green",
+            "waterColor": "#3878bc",
+            "waterFogColor": "#6390bf",
+            "category": "forest",
+            "fogColor": "#799fc7"
+        }
+    ],
+    "generators": [
+        {
+            "generator": "smooth-dunes",
+            "max": 5,
+            "min": 3
+        },
+        {
+            "generator": "rare-hills",
+            "max": 5,
+            "min": 0
+        }
+    ],
+    "wall": {"palette": [
+        {"block": "minecraft:stone"},
+        {"block": "minecraft:andesite"},
+        {"block": "minecraft:cobblestone"}
+    ]},
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:grass_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {"block": "minecraft:dirt"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "place": [
+                "trees/oak/lponderosa1",
+                "trees/oak/lponderosa2",
+                "trees/oak/lponderosa3",
+                "trees/oak/lponderosa4",
+                "trees/oak/lponderosa5",
+                "trees/oak/lponderosa6",
+                "trees/oak/lponderosa7",
+                "trees/oak/lponderosa8",
+                "trees/oak/lponderosa9",
+                "trees/oak/lponderosa10",
+                "trees/oak/lponderosa11",
+                "trees/oak/lponderosa12",
+                "trees/oak/lponderosa13",
+                "trees/oak/lponderosa14",
+                "trees/oak/lponderosa15"
+            ],
+            "chance": 1,
+            "density": 2,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT",
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:oak_wood"}],
+                    "replace": {"palette": [{"block": "minecraft:stripped_dark_oak_wood"}]}
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.03,
+            "palette": [{"block": "minecraft:tall_grass"}]
+        },
+        {
+            "chance": 0.5,
+            "palette": [{"block": "minecraft:grass"}]
+        },
+        {
+            "chance": 0.06,
+            "palette": [{"block": "minecraft:fern"}]
+        }
+    ]
+}

@@ -49,10 +49,6 @@
         {
             "rarity": 1500,
             "structure": "village-plains"
-        },
-        {
-            "rarity": 500,
-            "structure": "bee-castle"
         }
     ],
     "objects": [

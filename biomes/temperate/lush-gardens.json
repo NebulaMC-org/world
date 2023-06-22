@@ -13,12 +13,12 @@
     "generators": [
         {
             "generator": "smooth-dunes",
-            "max": 12,
+            "max": 20,
             "min": 5
         },
         {
             "generator": "rare-hills",
-            "max": 15,
+            "max": 5,
             "min": 0
         }
     ],
@@ -140,7 +140,7 @@
                 "water/lush/med2",
                 "water/lush/med3"
             ],
-            "chance": 0.4,
+            "chance": 0.6,
             "rotation": {
                 "enabled": true,
                 "yAxis": {
@@ -210,6 +210,7 @@
                 "replace":
                     {"palette": [
                         {"block": "minecraft:azalea_leaves", "weight": 10},
+                        {"block": "minecraft:birch_leaves", "weight": 10},
                         {"block": "minecraft:flowering_azalea_leaves", "weight": 1}
                     ]
                 }
@@ -246,6 +247,7 @@
                 "replace":
                     {"palette": [
                         {"block": "minecraft:azalea_leaves", "weight": 10},
+                        {"block": "minecraft:birch_leaves", "weight": 10},
                         {"block": "minecraft:flowering_azalea_leaves", "weight": 1}
                     ]
                 }
@@ -279,6 +281,7 @@
                 "replace":
                     {"palette": [
                         {"block": "minecraft:azalea_leaves", "weight": 10},
+                        {"block": "minecraft:birch_leaves", "weight": 10},
                         {"block": "minecraft:flowering_azalea_leaves", "weight": 1}
                     ]
                 }
@@ -324,5 +327,35 @@
             ]
 
         }
-    ]
+    ],
+    "slab": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "minecraft:stone_slab"
+            },
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "minecraft:cobblestone_slab"
+            },
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "minecraft:mossy_cobblestone_slab"
+            },
+            {
+                "weight": 2,
+                "block": "minecraft:air"
+            }
+        ]
+    }
 }

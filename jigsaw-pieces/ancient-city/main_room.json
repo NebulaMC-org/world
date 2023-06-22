@@ -1,20 +1,10 @@
 {
     "object": "jigsaw/ancient-city/main_room",
-    "placementOptions": {
-        "loot": ["structures/ancient-city"],
-        "edit": [
-            {
-                "find": [{"block": "minecraft:glass"}],
-                "replace": {"palette": [{"block": "minecraft:void_air"}]}
-            }
-        ]
-    },
     "connectors": [
         {
             "name": "inside",
             "targetName": "outside",
             "innerConnector": true,
-            "rotateConnector": true,
             "pools": ["ancient-city/outside"],
             "keepEntity": false,
             "entityCount": 1,
@@ -29,7 +19,6 @@
             "name": "inside",
             "targetName": "outside",
             "innerConnector": false,
-            "rotateConnector": true,
             "pools": ["ancient-city/outside"],
             "keepEntity": false,
             "entityCount": 1,
@@ -44,7 +33,6 @@
             "name": "inside",
             "targetName": "outside",
             "innerConnector": false,
-            "rotateConnector": true,
             "pools": ["ancient-city/outside"],
             "keepEntity": false,
             "entityCount": 1,
@@ -59,7 +47,6 @@
             "name": "inside",
             "targetName": "outside",
             "innerConnector": false,
-            "rotateConnector": true,
             "pools": ["ancient-city/outside"],
             "keepEntity": false,
             "entityCount": 1,
@@ -74,7 +61,6 @@
             "name": "inside",
             "targetName": "outside",
             "innerConnector": false,
-            "rotateConnector": true,
             "pools": ["ancient-city/outside"],
             "keepEntity": false,
             "entityCount": 1,
@@ -89,7 +75,6 @@
             "name": "inside",
             "targetName": "outside",
             "innerConnector": false,
-            "rotateConnector": true,
             "pools": ["ancient-city/outside"],
             "keepEntity": false,
             "entityCount": 1,

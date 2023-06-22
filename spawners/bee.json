@@ -1,7 +1,7 @@
 {
     "spawns": [{
         "entity": "standard/neutral/bee",
-        "maxSpawns": 1,
+        "maxSpawns": 3,
         "minSpawns": 1,
         "rarity": 1
     }]

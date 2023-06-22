@@ -6,7 +6,7 @@
     "vanillaDerivative": "FOREST",
     "customDerivitives": [{
         "id": "dark_oak_forest",
-        "foliageColor": "#315a18",
+        "foliageColor": "#427821",
         "grassColor": "#3d6414",
         "category": "forest"
     }],
@@ -137,7 +137,7 @@
             }
         },
         {
-            "chance": 0.001,
+            "chance": 0.0001,
             "rotation": {
                 "yAxis": {
                     "min": 0,
@@ -148,7 +148,7 @@
                 "enabled": true
             },
             "place": [
-                "jigsaw/woodland-mansion/woodland-mansion-hollowed"
+                "jigsaw/woodland-mansion/woodland-mansion"
             ],
             "markers": [
                 {
@@ -157,7 +157,7 @@
                         {"block": "minecraft:birch_planks"}
                     ],
                     "marker": "woodland-mansion",
-                    "maximumMarkers": 8
+                    "maximumMarkers": 6
                 },
                 {
                     "emptyAbove": true,
@@ -165,18 +165,13 @@
                         {"block": "minecraft:red_carpet"}
                     ],
                     "marker": "woodland-mansion",
-                    "maximumMarkers": 8
+                    "maximumMarkers": 6
                 }
             ],
             "loot": [{"name": "structures/woodland-mansion"}],
             "overrideGlobalLoot": true,
-            "edit": [
-                {
-                    "find": [{"block": "minecraft:oak_leaves"}],
-                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
-                }
-            ],
-            "mode": "MIN_HEIGHT"
+            "mode": "MIN_HEIGHT",
+            "bore": true
         }
     ],
     "decorators": [

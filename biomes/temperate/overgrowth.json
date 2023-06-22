@@ -1,0 +1,149 @@
+{
+    "name": "Overgrowth",
+    "color": "#56C326",
+    "rarity": 12,
+    "derivative": "FOREST",
+    "vanillaDerivative": "FOREST",
+    "customDerivitives": [{
+        "id": "overgrowth",
+        "foliageColor": "#64B233",
+        "grassColor": "#77A620",
+        "category": "forest"
+    }],
+    "biomeStyle":{
+        "cellularZoom": 10
+    },
+    "generators": [
+        {
+            "generator": "smooth-dunes",
+            "max": 60,
+            "min": 45
+        },
+        {
+            "generator": "rare-hills",
+            "max": 55,
+            "min": 45
+        }
+    ],
+    "layers": [
+        {
+            "style": {
+                "style": "IRIS_DOUBLE",
+                "fracture": {
+                    "style": "NOWHERE",
+                    "zoom": 0.2
+                }
+            },
+            "zoom": 0.2,
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:grass_block"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:moss_block"
+                },
+                {
+                    "weight": 3,
+                    "block": "minecraft:oak_leaves"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:oak_leaves"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 6,
+            "palette": [{"block": "minecraft:cave_air"}]
+        },
+        {
+            "style": {
+                "style": "IRIS_DOUBLE",
+                "fracture": {
+                    "style": "NOWHERE",
+                    "zoom": 0.2
+                }
+            },
+            "zoom": 0.2,
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:grass_block"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:moss_block"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:rooted_dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{"block": "minecraft:dirt"}]
+        }
+    ],
+    "objects": [
+        {
+            "mode": "PAINT",
+            "chance": 0.00375,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": ["clutter/camp1"]
+        },
+        {
+            "place": [
+                "trees/willow/bt1",
+                "trees/willow/bt2",
+                "trees/willow/bt3",
+                "trees/willow/bt4",
+                "trees/willow/bt5",
+                "trees/willow/bt6",
+                "trees/willow/bt7"
+            ],
+            "chance": 1,
+            "density": 3,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_STILT",
+            "translate":{
+                "y": -8
+            }
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.03,
+            "palette": [{"block": "minecraft:tall_grass"}]
+        },
+        {
+            "chance": 0.5,
+            "palette": [{"block": "minecraft:grass"}]
+        },
+        {
+            "chance": 0.06,
+            "palette": [{"block": "minecraft:fern"}]
+        }
+    ]
+}

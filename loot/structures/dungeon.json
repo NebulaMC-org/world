@@ -139,20 +139,20 @@
                 {
                     "enchantment": "efficiency",
                     "chance": 0.1,
-                    "maxLevel": 1,
-                    "minLevel": 2
+                    "maxLevel": 2,
+                    "minLevel": 1
                 },
                 {
                     "enchantment": "unbreaking",
                     "chance": 0.1,
-                    "maxLevel": 1,
-                    "minLevel": 3
+                    "maxLevel": 3,
+                    "minLevel": 1
                 },
                 {
                     "enchantment": "sharpness",
                     "chance": 0.1,
                     "maxLevel": 2,
-                    "minLevel": 2
+                    "minLevel": 1
                 },
                 {
                     "enchantment": "fortune",
@@ -175,26 +175,26 @@
                 {
                     "enchantment": "blast_protection",
                     "chance": 0.1,
-                    "maxLevel": 1,
-                    "minLevel": 3
+                    "maxLevel": 3,
+                    "minLevel": 1
                 },
                 {
                     "enchantment": "protection",
                     "chance": 0.1,
-                    "maxLevel": 1,
-                    "minLevel": 2
+                    "maxLevel": 2,
+                    "minLevel": 1
                 },
                 {
                     "enchantment": "projectile_protection",
                     "chance": 0.1,
-                    "maxLevel": 1,
-                    "minLevel": 3
+                    "maxLevel": 3,
+                    "minLevel": 1
                 },
                 {
                     "enchantment": "smite",
                     "chance": 0.1,
-                    "maxLevel": 1,
-                    "minLevel": 3
+                    "maxLevel": 3,
+                    "minLevel": 1
                 }
             ]
         },

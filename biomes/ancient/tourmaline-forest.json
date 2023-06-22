@@ -1,0 +1,123 @@
+{
+    "name": "Tourmaline Forest",
+    "color": "#56C326",
+    "rarity": 1,
+    "derivative": "FOREST",
+    "vanillaDerivative": "FOREST",
+    "customDerivitives": [
+        {
+            "grassColor": "#47335c",
+            "foliageColor": "#7f51b4",
+            "id": "tourmaline_forest",
+            "waterColor": "#6538bc",
+            "waterFogColor": "#7463bf",
+            "category": "forest",
+            "fogColor": "#8079c7"
+        }
+    ],
+    "generators": [
+        {
+            "generator": "mountain",
+            "max": 15,
+            "min": 5
+        }
+    ],
+    "wall": {"palette": [
+        {"block": "minecraft:blue_terracotta"}
+    ]},
+    "layers": [
+        {
+            "style": {
+                "style": "IRIS_DOUBLE",
+                "fracture": {
+                    "style": "NOWHERE",
+                    "zoom": 0.2
+                }
+            },
+            "zoom": 0.4,
+            "palette": [
+                {
+                    "weight": 7,
+                    "block": "minecraft:grass_block"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:soul_soil"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {"block": "minecraft:dirt"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "place": [
+                "trees/mixed/purpletourmalinelarge1",
+                "trees/mixed/purpletourmalinelarge2",
+                "trees/mixed/purpletourmalinelarge3",
+                "trees/mixed/purpletourmalinelarge4",
+                "trees/mixed/purpletourmalinelarge5",
+                "trees/mixed/purpletourmalinelarge6",
+                "trees/mixed/purpletourmalinelarge7",
+                "trees/mixed/purpletourmalinelarge8",
+                "trees/mixed/purpletourmalinelarge9",
+                "trees/mixed/purpletourmalinelarge10"
+            ],
+            "chance": 1,
+            "density": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT",
+            "edit": [
+                {
+                    "find": [
+                        {"block": "minecraft:blue_terracotta"},
+                        {"block": "minecraft:purple_concrete"},
+                        {"block": "minecraft:purple_wool"}
+                        ],
+                    "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
+                },
+                {
+                    "find": [
+                        {"block": "minecraft:cyan_terracotta"},
+                        {"block": "minecraft:soul_sand"}
+                        ],
+                    "replace": {"palette": [{"block": "minecraft:stripped_dark_oak_wood"}]}
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.03,
+            "palette": [{"block": "minecraft:tall_grass"}]
+        },
+        {
+            "chance": 0.5,
+            "palette": [{"block": "minecraft:grass"}]
+        },
+        {
+            "chance": 0.06,
+            "palette": [{"block": "minecraft:fern"}]
+        }
+    ]
+}
