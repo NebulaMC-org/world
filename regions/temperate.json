@@ -17,7 +17,9 @@
         "temperate/lush-mountain",
         "temperate/aspen-forest",
         "temperate/dark-oak-forest",
-        "temperate/giants-forest"
+        "temperate/giants-forest",
+        "ancient/mana-forest",
+        "temperate/cherry-blossoms"
     ],
     "objects": [
         {

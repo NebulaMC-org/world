@@ -1,7 +1,7 @@
 {
     "name": "Cursed Forest",
     "color": "#25C2D3",
-    "rarity": 1,
+    "rarity": 13,
     "derivative": "TAIGA",
     "vanillaDerivative": "WINDSWEPT_HILLS",
     "customDerivitives": [{

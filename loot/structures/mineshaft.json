@@ -166,9 +166,9 @@
             "slottypes": "STORAGE"
         },
         {
-            "type": "rail",
-            "maxAmount": 8,
-            "minAmount": 4,
+            "type": "gold_nugget",
+            "maxAmount": 6,
+            "minAmount": 3,
             "rarity": 1,
             "slotTypes": "STORAGE"
         }

@@ -1,7 +1,7 @@
 {
     "name": "Tourmaline Forest",
     "color": "#56C326",
-    "rarity": 1,
+    "rarity": 10,
     "derivative": "FOREST",
     "vanillaDerivative": "FOREST",
     "customDerivitives": [
@@ -18,7 +18,7 @@
     "generators": [
         {
             "generator": "mountain",
-            "max": 15,
+            "max": 35,
             "min": 5
         }
     ],
@@ -41,8 +41,12 @@
                     "block": "minecraft:grass_block"
                 },
                 {
-                    "weight": 1,
+                    "weight": 2,
                     "block": "minecraft:soul_soil"
+                },
+                {
+                    "weight": 1,
+                    "block": "minecraft:soul_sand"
                 }
             ]
         },
@@ -64,18 +68,18 @@
     "objects": [
         {
             "place": [
-                "trees/mixed/purpletourmalinelarge1",
-                "trees/mixed/purpletourmalinelarge2",
-                "trees/mixed/purpletourmalinelarge3",
-                "trees/mixed/purpletourmalinelarge4",
-                "trees/mixed/purpletourmalinelarge5",
-                "trees/mixed/purpletourmalinelarge6",
-                "trees/mixed/purpletourmalinelarge7",
-                "trees/mixed/purpletourmalinelarge8",
-                "trees/mixed/purpletourmalinelarge9",
-                "trees/mixed/purpletourmalinelarge10"
+                "trees/mixed/tourmalinelarge1",
+                "trees/mixed/tourmalinelarge2",
+                "trees/mixed/tourmalinelarge3",
+                "trees/mixed/tourmalinelarge4",
+                "trees/mixed/tourmalinelarge5",
+                "trees/mixed/tourmalinelarge6",
+                "trees/mixed/tourmalinelarge7",
+                "trees/mixed/tourmalinelarge8",
+                "trees/mixed/tourmalinelarge9",
+                "trees/mixed/tourmalinelarge10"
             ],
-            "chance": 1,
+            "chance": 0.85,
             "density": 1,
             "rotation": {
                 "enabled": true,
@@ -92,18 +96,60 @@
                     "find": [
                         {"block": "minecraft:blue_terracotta"},
                         {"block": "minecraft:purple_concrete"},
-                        {"block": "minecraft:purple_wool"}
+                        {"block": "minecraft:purple_glazed_terracotta"}
                         ],
                     "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
                 },
                 {
                     "find": [
-                        {"block": "minecraft:cyan_terracotta"},
-                        {"block": "minecraft:soul_sand"}
+                        {"block": "minecraft:cobblestone_wall"}
                         ],
-                    "replace": {"palette": [{"block": "minecraft:stripped_dark_oak_wood"}]}
+                    "replace": {"palette": [{"block": "minecraft:air"}]}
+                },
+                {
+                    "find": [
+                        {"block": "minecraft:brown_terracotta"},
+                        {"block": "minecraft:gray_terracotta"}
+                        ],
+                    "replace": {"palette": [{"block": "minecraft:spruce_wood"}]}
                 }
             ]
+        },
+        {
+            "place": [
+                "clutter/medtourmaclutt1",
+                "clutter/medtourmaclutt2",
+                "clutter/medtourmaclutt3",
+                "clutter/medtourmaclutt4",
+                "clutter/medtourmaclutt5",
+                "clutter/medtourmaclutt6",
+                "clutter/medtourmaclutt7",
+                "clutter/medtourmaclutt8",
+                "clutter/medtourmaclutt9",
+                "clutter/medtourmaclutt10",
+                "clutter/medtourmaclutt11",
+                "clutter/medtourmaclutt12",
+                "clutter/medtourmaclutt13",
+                "clutter/medtourmaclutt14",
+                "clutter/medtourmaclutt15",
+                "clutter/medtourmaclutt16",
+                "clutter/medtourmaclutt17",
+                "clutter/medtourmaclutt18",
+                "clutter/medtourmaclutt19",
+                "clutter/medtourmaclutt20"
+            ],
+            "chance": 0.3,
+            "density": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": 0,
+                    "max": 360
+                }
+            },
+            "mode": "MIN_HEIGHT"
         }
     ],
     "decorators": [
@@ -118,6 +164,10 @@
         {
             "chance": 0.06,
             "palette": [{"block": "minecraft:fern"}]
+        },
+        {
+            "chance": 0.005,
+            "palette": [{"block": "minecraft:torchflower"}]
         }
     ]
 }

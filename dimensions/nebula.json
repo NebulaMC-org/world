@@ -38,6 +38,7 @@
     "regionZoom": 40,
     "biomeZoom": 15,
     "aggressiveBiomeReshuffle": false,
+    "focus": "temperate/cherry-blossoms-giant",
     "regions": [
         "temperate",
         "hot",
