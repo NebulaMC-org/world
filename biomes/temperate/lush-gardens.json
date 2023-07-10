@@ -118,7 +118,7 @@
                 "water/lush/small2",
                 "water/lush/small3"
             ],
-            "chance": 0.2,
+            "chance": 0.3,
             "rotation": {
                 "enabled": true,
                 "yAxis": {
@@ -140,7 +140,7 @@
                 "water/lush/med2",
                 "water/lush/med3"
             ],
-            "chance": 0.6,
+            "chance": 0.15,
             "rotation": {
                 "enabled": true,
                 "yAxis": {
@@ -163,7 +163,7 @@
             "place": [
                 "water/lush/large1"
             ],
-            "chance": 0.005,
+            "chance": 0.05,
             "rotation": {
                 "enabled": true,
                 "yAxis": {

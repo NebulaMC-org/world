@@ -1,0 +1,251 @@
+{
+    "name": "Mystic Willows",
+    "color": "#3E4B0E",
+    "rarity": 10,
+    "derivative": "SWAMP",
+    "vanillaDerivative": "DARK_FOREST",
+    "customDerivitives": [
+        {
+            "grassColor": "#90e78d",
+            "foliageColor": "#a277d3",
+            "id": "mystic_willows",
+            "waterColor": "#b6fff5",
+            "waterFogColor": "#b6fff5",
+            "category": "forest",
+            "fogColor": "#d4cae7"
+        },
+        {
+            "grassColor": "#90e78d",
+            "foliageColor": "#da98fc",
+            "id": "mystic_willows_2",
+            "waterColor": "#b6fff5",
+            "waterFogColor": "#b6fff5",
+            "category": "forest",
+            "fogColor": "#d4cae7"
+        }
+    ],
+    "biomeZoom": 75,
+    "generators": [{
+        "min": 4,
+        "max": 20,
+        "generator": "mountain"
+    }],
+    "wall": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {"block": "minecraft:stone"},
+            {"block": "minecraft:andesite"},
+            {"block": "minecraft:stone"}
+        ]
+    },
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:grass_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [
+                {"block": "minecraft:dirt"},
+                {"block": "minecraft:coarse_dirt"}
+            ]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+    "jigsawStructures": [
+        {
+            "rarity": 1700,
+            "structure": "pillager-outpost"
+        },
+        {
+            "rarity": 1000,
+            "structure": "village-taiga"
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.0075,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/ancient-city/big_pillars",
+                "jigsaw/ancient-city/cross",
+                "jigsaw/ancient-city/ice",
+                "jigsaw/ancient-city/portal",
+                "jigsaw/ancient-city/ruins1",
+                "jigsaw/ancient-city/ruins2",
+                "jigsaw/ancient-city/ruins3",
+                "jigsaw/ancient-city/ruins4"
+            ],
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "translate":{
+                "y": -128,
+                "yRandom": -30
+            }
+        },
+        {
+            "chance": 0.7,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:birch_leaves"}],
+                    "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
+                }
+            ],
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/willow/t1",
+                "trees/willow/t2",
+                "trees/willow/t3",
+                "trees/willow/t4",
+                "trees/willow/t5",
+                "trees/willow/t6",
+                "trees/willow/t7",
+                "trees/willow/t8"
+            ]
+        },
+        {
+            "chance": 0.135,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/boulder1",
+                "clutter/boulder2",
+                "clutter/boulder3",
+                "clutter/boulder4",
+                "clutter/boulder5",
+                "clutter/boulder6",
+                "clutter/boulder7",
+                "clutter/boulder8"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -2,
+                "z": 0
+            }
+        },
+        {
+            "chance": 0.08,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/stump1",
+                "clutter/stump2",
+                "clutter/stump3",
+                "clutter/stump4",
+                "clutter/stump5",
+                "clutter/stump6"
+            ],
+            "mode": "PAINT"
+        },
+        {
+            "chance": 5.0E-5,
+            "rotation": {"enabled": false},
+            "place": ["clutter/genericgrave1"],
+            "translate": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            }
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.45,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:grass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.1,
+            "zoom": 0.3,
+            "palette": [
+                {"block": "minecraft:allium"},
+                {"block": "minecraft:dandelion"},
+                {"block": "minecraft:orange_tulip"}
+                ],
+            "style": {"style": "STATIC"}
+        }
+    ],
+    "effects": [
+        {
+            "interval": 55656,
+            "sound": "AMBIENT_SOUL_SAND_VALLEY_MOOD",
+            "soundDistance": 3,
+            "volume": 6.2,
+            "minPitch": 1.6,
+            "maxPitch": 1.35,
+            "chance": 11
+        },
+        {
+            "interval": 56565,
+            "sound": "AMBIENT_SOUL_SAND_VALLEY_MOOD",
+            "soundDistance": 3,
+            "volume": 6.2,
+            "minPitch": 0.4,
+            "maxPitch": 0.2,
+            "chance": 5
+        },
+        {
+            "particleAltX": 0.0101,
+            "particleAltY": -0.033885,
+            "particleAltZ": 0.0101,
+            "chance": 1,
+            "particleEffect": "CAMPFIRE_SIGNAL_SMOKE",
+            "particleOffset": 12,
+            "interval": 640,
+            "particleCount": 0
+        }
+    ],
+    "loot": {
+        "mode": "REPLACE",
+        "tables": ["structures/ancient-city"]
+    }
+}

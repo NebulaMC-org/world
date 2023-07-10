@@ -1,0 +1,155 @@
+{
+    "name": "Ash Desert",
+    "color": "#E0E0D7",
+    "rarity": 10,
+    "derivative": "DESERT",
+    "vanillaDerivative": "DESERT",
+    "generators": [{
+        "generator": "smooth-dunes",
+        "max": 52,
+        "min": 28
+    }],
+    "customDerivitives": [
+        {
+            "id": "ash_desert",
+            "fogColor": "#272727",
+            "skyColor": "#535353"
+        }
+    ],
+    "biomeZoom": 75,
+    "layers": [
+         {
+            "minHeight": 3,
+            "maxHeight": 10,
+            "slopeCondition": {
+                "minimumSlope": 4.5,
+                "maximumSlope": 20
+            },
+            "palette": [{"block": "minecraft:calcite"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [{
+                "block": "minecraft:white_concrete_powder"
+            }]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{
+                "block": "minecraft:light_gray_concrete_powder"
+            }]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [{
+                "block": "minecraft:gray_concrete_powder"
+            }]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.0075,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/ancient-city/big_pillars",
+                "jigsaw/ancient-city/cross",
+                "jigsaw/ancient-city/ice",
+                "jigsaw/ancient-city/portal",
+                "jigsaw/ancient-city/ruins1",
+                "jigsaw/ancient-city/ruins2",
+                "jigsaw/ancient-city/ruins3",
+                "jigsaw/ancient-city/ruins4"
+            ],
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "translate":{
+                "y": -128,
+                "yRandom": -30
+            }
+        },
+        {
+            "chance": 0.00025,
+            "density": 1,
+            "place": [
+                "clutter/bone1",
+                "clutter/bone5"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -45,
+                "z": 0
+            }
+        },
+        {
+            "chance": 0.01,
+            "density": 1,
+            "place": [
+                "clutter/bone6",
+                "clutter/bone7"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -8,
+                "z": 0
+            }
+        },
+        {
+            "chance": 0.0025,
+            "density": 1,
+            "place": [
+                "clutter/bone2",
+                "clutter/bone3",
+                "clutter/bone4"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -18,
+                "z": 0
+            }
+        },
+        {
+            "chance": 0.05,
+            "density": 1,
+            "place": [
+                "clutter/concretelith1",
+                "clutter/concretelith2",
+                "clutter/concretelith3",
+                "clutter/concretelith4",
+                "clutter/concretelith5",
+                "clutter/concretelith6",
+                "clutter/concretelith7"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -2,
+                "z": 0
+            }
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.005,
+            "palette": [{"block": "minecraft:dead_bush"}]
+        }
+    ],
+    "lockLayers": false,
+    "loot": {
+        "mode": "REPLACE",
+        "tables": ["structures/ancient-city"]
+    }
+}

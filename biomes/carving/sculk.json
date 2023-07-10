@@ -43,7 +43,7 @@
         "palette": [
             {"block": "minecraft:sculk_shrieker"}
         ],
-            "chance": 0.005
+            "chance": 0.0005
     },
     {
         "partOf": "CEILING",

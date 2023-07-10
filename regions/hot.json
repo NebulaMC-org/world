@@ -19,7 +19,8 @@
         "mesa/cliffs",
         "hot/sea/river",
         "hot/wasteland",
-        "hot/small-valley"
+        "hot/small-valley",
+        "ancient/ash-desert"
     ],
     "objects": [
         {

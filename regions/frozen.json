@@ -11,7 +11,8 @@
         "frozen/hills",
         "frozen/pine-plains",
         "frozen/spruce-plains",
-		"frozen/ice-spikes"
+		"frozen/ice-spikes",
+        "frozen/ice-pools"
     ],
     "objects": [
         {

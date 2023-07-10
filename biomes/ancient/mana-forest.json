@@ -33,6 +33,7 @@
             "fogColor": "#799fc7"
         }
     ],
+    "biomeZoom": 75,
     "generators": [
         {
             "generator": "smooth-dunes",
@@ -109,6 +110,38 @@
                     "replace": {"palette": [{"block": "minecraft:stripped_dark_oak_wood"}]}
                 }
             ]
+        },
+        {
+            "chance": 0.0075,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/ancient-city/big_pillars",
+                "jigsaw/ancient-city/cross",
+                "jigsaw/ancient-city/ice",
+                "jigsaw/ancient-city/portal",
+                "jigsaw/ancient-city/ruins1",
+                "jigsaw/ancient-city/ruins2",
+                "jigsaw/ancient-city/ruins3",
+                "jigsaw/ancient-city/ruins4"
+            ],
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "translate":{
+                "y": -128,
+                "yRandom": -30
+            }
         }
     ],
     "decorators": [
@@ -128,5 +161,9 @@
             "chance": 0.005,
             "palette": [{"block": "minecraft:pitcher_plant"}]
         }
-    ]
+    ],
+    "loot": {
+        "mode": "REPLACE",
+        "tables": ["structures/ancient-city"]
+    }
 }

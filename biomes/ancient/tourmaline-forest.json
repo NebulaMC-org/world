@@ -22,6 +22,7 @@
             "min": 5
         }
     ],
+    "biomeZoom": 75,
     "wall": {"palette": [
         {"block": "minecraft:blue_terracotta"}
     ]},
@@ -66,6 +67,38 @@
         }
     ],
     "objects": [
+        {
+            "chance": 0.0075,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/ancient-city/big_pillars",
+                "jigsaw/ancient-city/cross",
+                "jigsaw/ancient-city/ice",
+                "jigsaw/ancient-city/portal",
+                "jigsaw/ancient-city/ruins1",
+                "jigsaw/ancient-city/ruins2",
+                "jigsaw/ancient-city/ruins3",
+                "jigsaw/ancient-city/ruins4"
+            ],
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "translate":{
+                "y": -128,
+                "yRandom": -30
+            }
+        },
         {
             "place": [
                 "trees/mixed/tourmalinelarge1",
@@ -169,5 +202,9 @@
             "chance": 0.005,
             "palette": [{"block": "minecraft:torchflower"}]
         }
-    ]
+    ],
+    "loot": {
+        "mode": "REPLACE",
+        "tables": ["structures/ancient-city"]
+    }
 }

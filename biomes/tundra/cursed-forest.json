@@ -11,7 +11,8 @@
         "foliageColor": "#28242e",
         "waterColor": "#464d6b",
         "waterFogColor": "#464d6b",
-        "fogColor": "#232323"
+        "fogColor": "#232323",
+        "skyColor": "#535353"
     }],
     "generators": [{
         "min": 17,

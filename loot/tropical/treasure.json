@@ -1,8 +1,8 @@
 {
     "name": "Tropical Treasure",
     "rarity": 1,
-    "maxPicked": 2,
-    "minPicked": 0,
+    "maxPicked": 9,
+    "minPicked": 4,
     "loot": [
         {
             "type": "raw_copper",
