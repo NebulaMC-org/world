@@ -41,9 +41,9 @@
             "min": 3
         },
         {
-            "generator": "rare-hills",
+            "generator": "mountain",
             "max": 5,
-            "min": 0
+            "min": 30
         }
     ],
     "wall": {"palette": [

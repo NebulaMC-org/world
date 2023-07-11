@@ -26,8 +26,8 @@
     ],
     "biomeZoom": 75,
     "generators": [{
-        "min": 4,
-        "max": 20,
+        "min": 10,
+        "max": 30,
         "generator": "mountain"
     }],
     "wall": {

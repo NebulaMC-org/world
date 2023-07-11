@@ -15,13 +15,11 @@
             "fogColor": "#8079c7"
         }
     ],
-    "generators": [
-        {
-            "generator": "mountain",
-            "max": 35,
-            "min": 5
-        }
-    ],
+    "generators": [{
+        "min": 20,
+        "max": 75,
+        "generator": "mountain"
+    }],
     "biomeZoom": 75,
     "wall": {"palette": [
         {"block": "minecraft:blue_terracotta"}

@@ -38,7 +38,7 @@
     "regionZoom": 40,
     "biomeZoom": 15,
     "aggressiveBiomeReshuffle": false,
-    "focus": "ancient/mana-forest",
+    "focus": "hot/desert-dunes-extreme",
     "regions": [
         "temperate",
         "hot",
