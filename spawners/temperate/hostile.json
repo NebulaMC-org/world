@@ -34,13 +34,6 @@
             "minSpawns": 1
         },
         {
-            "entity": "standard/hostile/slime",
-            "energyMultiplier": 1,
-            "rarity": 5,
-            "maxSpawns": 2,
-            "minSpawns": 1
-        },
-        {
             "entity": "standard/hostile/skeleton",
             "energyMultiplier": 1,
             "rarity": 30,

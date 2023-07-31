@@ -10,6 +10,9 @@
         "grassColor": "#3d6414",
         "category": "forest"
     }],
+    "entitySpawners": [
+        "temperate/darkoak"
+    ],
     "generators": [
         {
             "generator": "smooth-dunes",

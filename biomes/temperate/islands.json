@@ -10,8 +10,7 @@
         "generator": "mountain"
     }],
     "biomeStyle":{
-        "zoom": 30,
-        "exponent": 1.5
+        "zoom": 80
     },
     "layers": [
         {"palette": [{"block": "minecraft:grass_block"}]},

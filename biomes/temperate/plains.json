@@ -85,7 +85,7 @@
         },
         {
             "chance": 0.0001,
-            "mode": "MIN_STILT",
+            "mode": "MIN_HEIGHT",
             "rotation": {
                 "yAxis": {
                     "min": 0,
@@ -95,7 +95,12 @@
                 },
                 "enabled": true
             },
-            "place": ["structures/ruin1"]
+            "place": [
+                "structures/ruin1",
+                "structures/ruin2",
+                "structures/ruin3",
+                "structures/ruin4"
+            ]
         },
         {
             "chance": 0.005,

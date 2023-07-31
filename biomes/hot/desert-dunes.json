@@ -37,16 +37,8 @@
     }],
     "jigsawStructures": [
         {
-            "rarity": 1700,
+            "rarity": 2500,
             "structure": "pillager-outpost"
-        },
-        {
-            "rarity": 1500,
-            "structure": "village-desert"
-        },
-        {
-            "rarity": 1900,
-            "structure": "pyramid-desert"
         }
     ],
     "objects": [
@@ -72,7 +64,7 @@
             }
         },
         {
-            "chance": 0.001,
+            "chance": 0.0003,
             "density": 3,
             "place": [
                 "clutter/desertpost1",
@@ -98,7 +90,33 @@
             }
         },
         {
-            "chance": 0.0018,
+            "chance": 0.001,
+            "translate":{
+                "y": -19
+            },
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/pyramid/pyramid_2"
+            ],
+            "loot": [{"name": "structures/pyramid-desert"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ]
+        },
+        {
+            "chance": 0.00005,
             "mode": "MIN_HEIGHT",
             "rotation": {
                 "yAxis": {
@@ -120,7 +138,7 @@
             }
         },
         {
-            "chance": 0.0014,
+            "chance": 0.0002,
             "mode": "MIN_HEIGHT",
             "rotation": {
                 "yAxis": {

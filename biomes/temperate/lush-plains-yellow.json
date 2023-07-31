@@ -52,6 +52,25 @@
 
     "objects": [
         {
+            "chance": 0.0001,
+            "mode": "MIN_HEIGHT",
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 360,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "structures/ruin1",
+                "structures/ruin2",
+                "structures/ruin3",
+                "structures/ruin4"
+            ]
+        },
+        {
             "mode": "PAINT",
             "chance": 0.009,
             "rotation": {

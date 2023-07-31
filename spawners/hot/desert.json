@@ -1,0 +1,23 @@
+{
+    "group": "NORMAL",
+    "maximumRate": {
+        "amount": 3,
+        "per": {"seconds": 15}
+    },
+    "timeBlock": {
+        "startHour": 6,
+        "endHour": 18
+    },
+    "maxEntitiesPerChunk": 2,
+    "energyMultiplier": 0.95,
+    "weather": "ANY",
+    "spawns": [
+        {
+            "entity": "standard/passive/camel",
+            "energyMultiplier": 1,
+            "rarity": 10,
+            "maxSpawns": 3,
+            "minSpawns": 1
+        }
+    ]
+}

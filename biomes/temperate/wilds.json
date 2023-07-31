@@ -12,8 +12,7 @@
         "category": "forest"
     }],
     "children": [
-        "temperate/highlands",
-        "temperate/wilds-extended"
+        "temperate/highlands"
     ],
     "generators": [{
         "min": 4,

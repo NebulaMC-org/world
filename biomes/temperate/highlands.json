@@ -1,7 +1,7 @@
 {
     "name": "Temperate Highlands",
     "color": "#81DE5A",
-    "rarity": 1,
+    "rarity": 4,
     "derivative": "FOREST",
     "vanillaDerivative": "PLAINS",
     "generators": [{
@@ -130,6 +130,43 @@
                 {"block": "minecraft:fern"}
             ],
             "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.00001,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/beecastle"
+            ],
+            "bottom": true,
+            "loot": [{"name": "structures/beecastle"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "markers": [
+            {
+                "emptyAbove": true,
+                "mark": [
+                    {"block": "minecraft:bee_nest"}
+                ],
+                "marker": "bee",
+                "maximumMarkers": 3
+            }
+            ],
+            "translate":{
+                "y": -85
+            }
         }
     ]
 }

@@ -29,9 +29,6 @@
             {"block": "minecraft:stone"}
         ]
     },
-    "entitySpawners": [
-        "temperate/crystal/mythic"
-    ],
     "layers": [
         {
             "style": {"style": "STATIC"},

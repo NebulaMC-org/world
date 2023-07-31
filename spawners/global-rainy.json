@@ -1,0 +1,23 @@
+{
+    "group": "NORMAL",
+    "maximumRate": {
+        "amount": 3,
+        "per": {"seconds": 15}
+    },
+    "timeBlock": {
+        "startHour": 18,
+        "endHour": 6
+    },
+    "maxEntitiesPerChunk": 2,
+    "energyMultiplier": 0.95,
+    "weather": "DOWNFALL",
+    "spawns": [
+        {
+            "entity": "mythic/thunderbird",
+            "energyMultiplier": 1,
+            "rarity": 30,
+            "maxSpawns": 1,
+            "minSpawns": 1
+        }
+    ]
+}

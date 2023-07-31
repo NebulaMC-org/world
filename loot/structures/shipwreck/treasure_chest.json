@@ -1,6 +1,8 @@
 {
     "name": "Tresure Chest",
     "rarity": 1,
+    "minPicked": 7,
+    "maxPicked": 12,
     "loot": [
         {
             "type": "iron_ingot",

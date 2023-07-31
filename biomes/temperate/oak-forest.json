@@ -10,6 +10,9 @@
         "grassColor": "#77A620",
         "category": "forest"
     }],
+    "entitySpawners": [
+        "temperate/forest"
+    ],
     "children": ["temperate/oak-forest-extended"],
     "generators": [
         {
@@ -165,6 +168,43 @@
                 }
             },
             "translate": {"y": 1}
+        },
+        {
+            "chance": 0.00001,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/beecastle"
+            ],
+            "bottom": true,
+            "loot": [{"name": "structures/beecastle"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "markers": [
+            {
+                "emptyAbove": true,
+                "mark": [
+                    {"block": "minecraft:bee_nest"}
+                ],
+                "marker": "bee",
+                "maximumMarkers": 3
+            }
+            ],
+            "translate":{
+                "y": -85
+            }
         }
     ],
     "decorators": [

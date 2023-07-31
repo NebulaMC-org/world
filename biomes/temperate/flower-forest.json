@@ -26,6 +26,9 @@
             {"block": "minecraft:stone"}
         ]
     },
+    "entitySpawners": [
+        "temperate/forest"
+    ],
     "layers": [
         {
             "style": {"style": "STATIC"},
@@ -281,6 +284,43 @@
                 "clutter/rock3",
                 "clutter/rock4"
             ]
+        },
+        {
+            "chance": 0.00001,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/beecastle"
+            ],
+            "bottom": true,
+            "loot": [{"name": "structures/beecastle"}],
+            "overrideGlobalLoot": true,
+            "edit": [
+                {
+                    "find": [{"block": "minecraft:glass"}],
+                    "replace": {"palette": [{"block": "minecraft:void_air"}]}
+                }
+            ],
+            "markers": [
+            {
+                "emptyAbove": true,
+                "mark": [
+                    {"block": "minecraft:bee_nest"}
+                ],
+                "marker": "bee",
+                "maximumMarkers": 3
+            }
+            ],
+            "translate":{
+                "y": -85
+            }
         }
     ],
     "decorators": [

@@ -15,6 +15,9 @@
             "category": "forest"
         }
     ],
+    "entitySpawners": [
+        "temperate/cherry"
+    ],
     "generators": [
         {
             "min": 50,

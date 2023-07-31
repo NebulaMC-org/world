@@ -37,16 +37,12 @@
     }],
     "jigsawStructures": [
         {
-            "rarity": 1700,
+            "rarity": 2500,
             "structure": "pillager-outpost"
         },
         {
             "rarity": 1500,
             "structure": "village-desert"
-        },
-        {
-            "rarity": 1900,
-            "structure": "pyramid-desert"
         }
     ],
     "objects": [
@@ -72,7 +68,7 @@
             }
         },
         {
-            "chance": 0.001,
+            "chance": 0.0003,
             "density": 3,
             "place": [
                 "clutter/rdesertpost1",
@@ -81,46 +77,7 @@
             ]
         },
         {
-            "chance": 0.0018,
-            "mode": "MIN_HEIGHT",
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 0,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "jigsaw/pyramid/pyramid-red-extreme",
-                "jigsaw/pyramid/pyramid-red"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -3,
-                "z": 0
-            }
-        },
-        {
-            "mode": "MIN_HEIGHT",
-            "place": [
-                "structures/ruins-desert-1",
-                "structures/ruins-desert-2"
-            ],
-            "chance": 0.005,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": -360,
-                    "max": 360
-                }
-            }
-        },
-        {
-            "chance": 0.0014,
+            "chance": 0.0002,
             "mode": "MIN_HEIGHT",
             "rotation": {
                 "yAxis": {
@@ -138,6 +95,28 @@
             "translate": {
                 "x": 0,
                 "y": -2,
+                "z": 0
+            }
+        },
+        {
+            "chance": 0.0002,
+            "mode": "MIN_HEIGHT",
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "jigsaw/pyramid/pyramid-red-extreme",
+                "jigsaw/pyramid/pyramid-red"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -3,
                 "z": 0
             }
         },

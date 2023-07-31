@@ -1,10 +1,14 @@
 {
     "name": "Cherry Forest",
     "color": "#47B019",
-    "rarity": 4,
+    "rarity": 5,
     "derivative": "FLOWER_FOREST",
     "vanillaDerivative": "FOREST",
     "children": ["temperate/cherry-blossoms-giant"],
+    "childStyle":{
+        "style": "SIMPLEX",
+        "zoom": 1.5
+    },
     "biomeScatter": [
         "FOREST"
     ],
@@ -15,6 +19,9 @@
             "grassColor": "#A8FF98",
             "category": "forest"
         }
+    ],
+    "entitySpawners": [
+        "temperate/cherry"
     ],
     "generators": [
         {
@@ -161,7 +168,7 @@
                         },
                         "palette": [
                             {
-                                "block": "minecraft:cherry_log"
+                                "block": "minecraft:cherry_wood"
                             }
                         ]
                     }

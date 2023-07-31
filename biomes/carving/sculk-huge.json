@@ -74,5 +74,8 @@
     }
 
 
-]
+],
+    "entitySpawners": [
+        "cave/sculk"
+    ]
 }
