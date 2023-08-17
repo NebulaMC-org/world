@@ -1,8 +1,8 @@
 {
     "name": "Supply Chest",
     "rarity": 1,
-    "minPicked": 4,
-    "maxPicked": 11,
+    "minPicked": 2,
+    "maxPicked": 8,
     "loot": [
         {
             "type": "suspicious_stew",

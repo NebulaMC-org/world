@@ -25,9 +25,6 @@
             {"block": "minecraft:stone"}
         ]
     },
-    "entitySpawners": [
-        "temperate/forest"
-    ],
     "layers": [
         {
             "style": {"style": "STATIC"},

@@ -25,12 +25,12 @@
         "style": "CELLULAR",
         "cellularZoom": 2,
         "fracture": {
-            "multiplier": 55,
+            "multiplier": 90,
             "style": "NOWHERE",
-            "zoom": 0.8,
+            "zoom": 0.15,
             "fracture": {
                 "style": "SIMPLEX",
-                "multiplier": 4,
+                "multiplier": 7,
                 "zoom": 0.35
             }
         }
@@ -47,7 +47,6 @@
         "swamp",
         "mushroom"
     ],
-    "focus": "hot/desert-dunes",
     "seaBiomeStyle": {"style": "SIMPLEX"},
     "landBiomeStyle": {
         "style": "CELLULAR_IRIS_THICK",
@@ -65,9 +64,6 @@
             }
         }
     },
-    "entitySpawners": [
-        "global-rainy"
-    ],
     "shoreBiomeStyle": {"style": "NOWHERE_CELLULAR"},
     "ores": [
         {
@@ -336,33 +332,17 @@
             "varience": 7
         },
         {
-            "minHeight": 64,
+            "minHeight": 5,
             "maxHeight": 80,
-            "maxPerChunk": 1,
+            "maxPerChunk": 4,
             "minPerChunk": 1,
-            "minSize": 1,
-            "maxSize": 4,
-            "palette": [{"block": "minecraft:diamond_ore"}],
-            "varience": 5
-        },
-        {
-            "minHeight": 0,
-            "maxHeight": 64,
-            "maxPerChunk": 1,
-            "minPerChunk": 1,
-            "minSize": 1,
-            "maxSize": 4,
-            "palette": [{"block": "minecraft:deepslate_diamond_ore"}],
-            "varience": 5
-        },
-        {
-            "minHeight": 0,
-            "maxHeight": 64,
-            "maxPerChunk": 2,
-            "minPerChunk": 1,
-            "minSize": 4,
-            "maxSize": 8,
-            "palette": [{"block": "minecraft:deepslate_diamond_ore"}],
+            "minSize": 2,
+            "maxSize": 7,
+            "palette": [
+                {
+                    "block": "minecraft:diamond_ore"
+                }
+            ],
             "varience": 5
         },
         {

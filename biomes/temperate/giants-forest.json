@@ -10,10 +10,6 @@
         "grassColor": "#77A620",
         "category": "forest"
     }],
-    "entitySpawners": [
-        "temperate/forest",
-        "temperate/darkoak"
-    ],
     "biomeStyle":{
         "cellularZoom": 10
     },

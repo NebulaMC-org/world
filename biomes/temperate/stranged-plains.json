@@ -20,9 +20,6 @@
         {"block": "minecraft:stone"},
         {"block": "minecraft:andesite"}
     ]},
-    "entitySpawners": [
-        "temperate/farmland/mythic"
-    ],
     "layers": [
         {"palette": [{"block": "minecraft:grass_block"}]},
         {

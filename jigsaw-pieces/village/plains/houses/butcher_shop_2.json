@@ -51,6 +51,10 @@
         }
     ],
     "placementOptions": {
+        "edit": [{
+                "find": [{"block": "minecraft:dirt"}],
+                "replace": {"palette": [{"block": "minecraft:cobblestone"}]}
+            }],
         "loot": ["structures/village/butcher"],
         "markers": [{
             "emptyAbove": true,

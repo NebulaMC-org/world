@@ -1,7 +1,7 @@
 {
     "name": "Lush Plains Red",
     "color": "#6DCF43",
-    "rarity": 3,
+    "rarity": 5,
     "derivative": "FLOWER_FOREST",
     "vanillaDerivative": "FLOWER_FOREST",
     "generators": [{

@@ -41,6 +41,10 @@
         }
     ],
     "placementOptions": {
+        "edit": [{
+                "find": [{"block": "minecraft:dirt"}],
+                "replace": {"palette": [{"block": "minecraft:cobblestone"}]}
+            }],
         "loot": ["structures/village/plains"],
         "markers": [{
             "emptyAbove": true,

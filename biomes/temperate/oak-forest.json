@@ -10,9 +10,6 @@
         "grassColor": "#77A620",
         "category": "forest"
     }],
-    "entitySpawners": [
-        "temperate/forest"
-    ],
     "children": ["temperate/oak-forest-extended"],
     "generators": [
         {

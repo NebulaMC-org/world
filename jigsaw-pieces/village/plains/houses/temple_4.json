@@ -12,6 +12,10 @@
         "direction": "WEST_NEGATIVE_X"
     }],
     "placementOptions": {
+        "edit": [{
+                "find": [{"block": "minecraft:dirt"}],
+                "replace": {"palette": [{"block": "minecraft:cobblestone"}]}
+            }],
         "loot": ["structures/village/temple"],
         "markers": [{
             "emptyAbove": true,

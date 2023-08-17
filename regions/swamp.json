@@ -1,7 +1,7 @@
 {
     "name": "Swamp",
     "color": "#69943C",
-    "rarity": 2,
+    "rarity": 3,
     "landBiomes": [
         "swamp/roofed-forest",
         "swamp/willow-forest",

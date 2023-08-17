@@ -1,7 +1,7 @@
 {
     "name": "Plains",
     "color": "#42A616",
-    "rarity": 3,
+    "rarity": 2,
     "derivative": "PLAINS",
     "vanillaDerivative": "PLAINS",
     "generators": [{
@@ -9,6 +9,7 @@
         "max": 10,
         "generator": "plain"
     }],
+    "biomeZoom": 5,
     "biomeStyle": {
         "style": "SIMPLEX"
         },

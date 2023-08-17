@@ -15,11 +15,6 @@
       "minSpawns": 1
     },
     {
-      "entity": "standard/passive/frog",
-      "maxSpawns": 3,
-      "minSpawns": 1
-    },
-    {
       "entity": "standard/passive/tadpole",
       "maxSpawns": 3,
       "minSpawns": 1,

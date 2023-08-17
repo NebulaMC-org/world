@@ -16,9 +16,6 @@
             "generator": "rare-hills"
         }
     ],
-    "entitySpawners": [
-        "temperate/forest"
-    ],
     "biomeZoom": 50,
     "biomeStyle": {"style": "SIMPLEX"},
     "wall": {

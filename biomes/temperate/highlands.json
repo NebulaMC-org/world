@@ -1,7 +1,7 @@
 {
     "name": "Temperate Highlands",
     "color": "#81DE5A",
-    "rarity": 4,
+    "rarity": 10,
     "derivative": "FOREST",
     "vanillaDerivative": "PLAINS",
     "generators": [{
@@ -9,7 +9,7 @@
         "max": 20,
         "generator": "mountain"
     }],
-    "biomeZoom": 9,
+    "biomeZoom": 5,
     "biomeStyle": {"style": "SIMPLEX"},
     "wall": {
         "style": {"style": "STATIC"},

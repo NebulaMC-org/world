@@ -10,9 +10,6 @@
         "grassColor": "#3d6414",
         "category": "forest"
     }],
-    "entitySpawners": [
-        "temperate/darkoak"
-    ],
     "generators": [
         {
             "generator": "smooth-dunes",
@@ -140,7 +137,7 @@
             }
         },
         {
-            "chance": 0.0001,
+            "chance": 0.00001,
             "rotation": {
                 "yAxis": {
                     "min": 0,

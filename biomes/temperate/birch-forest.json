@@ -8,9 +8,6 @@
         "temperate/birch-thin",
         "temperate/birch-forest-extended"
     ],
-    "entitySpawners": [
-        "temperate/forest"
-    ],
     "generators": [
         {
             "min": 5,

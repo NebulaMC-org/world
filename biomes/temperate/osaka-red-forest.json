@@ -23,9 +23,6 @@
             "category": "forest"
         }
     ],
-    "entitySpawners": [
-        "temperate/forest"
-    ],
     "generators": [{
         "min": 4,
         "max": 7,

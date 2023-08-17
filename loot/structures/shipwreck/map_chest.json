@@ -1,8 +1,8 @@
 {
     "name": "Map Chest",
     "rarity": 1,
-    "minPicked": 4,
-    "maxPicked": 8,
+    "minPicked": 1,
+    "maxPicked": 4,
     "loot": [
         {
             "type": "paper",

@@ -12,9 +12,6 @@
         "waterColor": "#b6fff5",
         "waterFogColor": "#b6fff5"
     }],
-    "entitySpawners": [
-        "temperate/forest"
-    ],
     "generators": [
         {
             "generator": "smooth-dunes",

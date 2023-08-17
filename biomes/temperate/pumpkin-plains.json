@@ -21,9 +21,6 @@
         "max": 20,
         "generator": "plain"
     }],
-	"entitySpawners": [
-        "temperate/farmland/mythic"
-    ],
     "layers": [
         {"palette": [
             {"block": "minecraft:coarse_dirt"},
